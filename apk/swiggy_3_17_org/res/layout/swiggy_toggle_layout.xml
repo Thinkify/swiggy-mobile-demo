@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_layout" android:padding="@dimen/dimen_8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_vertical" android:id="@id/toggle_off_bg" android:background="@color/toggle_track_off_color" android:layout_width="@dimen/toggle_width" android:layout_height="@dimen/dimen_18dp" />
+    <View android:layout_gravity="center_vertical" android:id="@id/toggle_on_bg" android:background="@color/toggle_track_on_color" android:visibility="gone" android:layout_width="@dimen/toggle_width" android:layout_height="@dimen/dimen_18dp" />
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/toggle_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen_2dp" android:paddingEnd="@dimen/dimen_2dp">
+        <View android:layout_gravity="start|center" android:id="@id/toggle_indicator_off" android:background="@color/toggle_thumb_on_color" android:layout_width="@dimen/dimen_14dp" android:layout_height="@dimen/dimen_14dp" />
+        <View android:layout_gravity="start|center" android:id="@id/toggle_indicator_on" android:background="@color/toggle_thumb_on_color" android:visibility="gone" android:layout_width="@dimen/dimen_14dp" android:layout_height="@dimen/dimen_14dp" />
+    </FrameLayout>
+</FrameLayout>

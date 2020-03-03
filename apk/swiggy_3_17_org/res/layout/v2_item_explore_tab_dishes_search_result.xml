@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/v2_item_explore_tab_dishes_search_result_0" android:background="@drawable/ripple_rectangle" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ContainerDishesTabSearchResultItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_20dp">
+        <in.swiggy.android.view.SwiggyTextView android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:loaderHeightFraction="0.8" app:loaderWidthFraction="0.5" app:visibilityWhenLoading="visible" style="@style/TextStyleDishesTabSearchResultItem" />
+        <in.swiggy.android.view.SwiggyTextView android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_restaurant_listing_screen_right" android:textAllCaps="true" android:layout_marginEnd="@dimen/margin_restaurant_listing_screen_right" style="@style/TextMedium11spBlackGrape90" />
+    </LinearLayout>
+    <in.swiggy.android.view.DottedDividerView android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" app:visibilityWhenLoading="visible" />
+</LinearLayout>

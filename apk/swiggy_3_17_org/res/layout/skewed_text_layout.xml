@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <in.swiggy.android.view.SkewedTextView android:gravity="center" android:id="@id/skewed_text" android:paddingTop="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="100.0dip" style="@style/TextBold18spBlackGrape100Caps" />
+    <in.swiggy.android.view.WaveView android:id="@id/wave_view" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="-5.0dip" />
+</merge>

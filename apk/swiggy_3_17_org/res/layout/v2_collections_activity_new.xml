@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/v2_collections_activity_new_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <in.swiggy.android.view.ShimmerFrameLayout android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:tilt="0">
+            <in.swiggy.android.view.SwiggyRecyclerView android:id="@id/listing_recycler_view" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="fill_parent" app:objectName="@string/gtm_restaurants_list_name" style="@style/RecyclerViewStyleRestaurantListing" />
+        </in.swiggy.android.view.ShimmerFrameLayout>
+        <FrameLayout android:tag="binding_3" android:paddingTop="@dimen/collections_toolbar_height" android:paddingBottom="@dimen/bottom_bar_height" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/v2_item_illustration_details" />
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:tag="binding_4" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:tag="binding_5" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="@dimen/default_status_bar_height" />
+        <in.swiggy.android.view.SwiggyToolbar android:id="@id/toolbar" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:showDivider="true" app:subtitleTextAppearance="@style/TextRegular12spBlackGrape60" app:titleTextAppearance="@style/TextBold13spBlackGrape100Caps" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen_16dp" android:paddingEnd="@dimen/dimen_16dp">
+            <in.swiggy.android.view.SwiggyTextView android:id="@id/countText" android:tag="binding_7" android:paddingTop="@dimen/dimen_8dp" android:paddingBottom="@dimen/dimen_8dp" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/sort_and_filter_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:loaderHeightFraction="0.8" app:loaderWidthFraction="0.3" app:visibilityWhenLoading="visible" style="@style/TextMedium11spBlackGrape80Caps" />
+            <LinearLayout android:layout_gravity="end|center" android:id="@id/sort_and_filter_button" android:tag="binding_8" android:paddingTop="@dimen/dimen_8dp" android:paddingBottom="@dimen/dimen_8dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dimen_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <in.swiggy.android.commonsui.view.IconTextView android:textSize="@dimen/dimen_16dp" android:textColor="@color/blackGrape80" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="@dimen/dimen_16dp" android:layout_height="@dimen/dimen_16dp" app:fontIcon="filter" />
+                <in.swiggy.android.view.SwiggyTextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/sort_or_filter" android:layout_marginStart="@dimen/dimen_8dp" style="@style/TextStyleRestaurantListingSort" />
+                <View android:layout_gravity="center_vertical" android:tag="binding_9" android:background="@drawable/green_dot" android:layout_width="@dimen/dimen_5dp" android:layout_height="@dimen/dimen_5dp" android:layout_marginStart="@dimen/dimen_4dp" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View android:background="@color/blackGrape0" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_1dp" />
+    </LinearLayout>
+    <View android:tag="binding_10" android:background="@color/pale_grey" android:layout_width="fill_parent" android:layout_height="@dimen/collection_header_view_new_height" />
+</FrameLayout>

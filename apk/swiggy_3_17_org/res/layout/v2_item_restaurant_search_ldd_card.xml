@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/v2_item_restaurant_search_ldd_card_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/titleLayout" android:background="@color/assured_card_bg" android:paddingLeft="@dimen/dimen_26dp" android:paddingRight="@dimen/dimen_26dp" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_110dp" android:paddingStart="@dimen/dimen_26dp" android:paddingEnd="@dimen/dimen_26dp">
+        <in.swiggy.android.view.SwiggyImageView android:layout_width="@dimen/dimen_40dp" android:layout_height="@dimen/dimen_40dp" />
+        <in.swiggy.android.view.SwiggyTextView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_20dp" style="@style/TextRegular18spWhite100" />
+    </LinearLayout>
+    <in.swiggy.android.view.RestaurantCardViewGroup android:orientation="horizontal" android:id="@id/cardLayout" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/titleLayout" style="@style/ContainerRestaurantSearchAssuredCard" />
+</RelativeLayout>

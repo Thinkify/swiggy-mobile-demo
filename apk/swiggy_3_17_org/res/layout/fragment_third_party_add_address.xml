@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_layout" android:tag="layout/fragment_third_party_add_address_0" android:background="@color/translucentBlack20" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <in.swiggy.android.view.SwiggyTextView android:id="@id/address_required_message" android:background="@color/blackGrape80" android:padding="@dimen/extra_gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/third_party_address_required_message" android:maxLines="2" style="@style/TextRegular12spWhite80" />
+    <ScrollView android:id="@id/form_scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/address_required_message" android:isScrollContainer="true">
+        <RelativeLayout android:orientation="vertical" android:id="@id/form_container" android:background="@color/white" android:paddingLeft="@dimen/twenty_gap" android:paddingRight="@dimen/twenty_gap" android:paddingBottom="@dimen/normal_gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" android:paddingStart="@dimen/twenty_gap" android:paddingEnd="@dimen/twenty_gap">
+            <LinearLayout android:orientation="vertical" android:id="@id/city_edit_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/twenty_gap">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.google.android.material.textfield.TextInputLayout android:id="@id/city_input_layout" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hintTextAppearance="@style/HintStyle">
+                    <in.swiggy.android.view.SwiggyEditText android:id="@id/et_city" android:background="@color/transparent" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/third_party_lable_city" android:editable="false" android:inputType="none" style="@style/EditTextMedium15spBlackGrape100BlackGrape60Dominos" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/locality_edit_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/twenty_gap" android:layout_below="@id/city_edit_container">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:id="@id/locality_close_button_cta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+                        <in.swiggy.android.view.SwiggyImageButton android:id="@id/locality_search_clear_button" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_clear_black_24dp" android:scaleType="fitCenter" android:layout_centerInParent="true" android:alpha="0.7" app:objectValue="clear-search-button" />
+                        <com.pnikosis.materialishprogress.ProgressWheel android:id="@id/locality_search_progress_wheel" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_centerInParent="true" app:matProg_barColor="@color/nasty_orange" app:matProg_barWidth="2.0dip" app:matProg_linearProgress="true" app:matProg_progressIndeterminate="true" />
+                    </RelativeLayout>
+                    <com.google.android.material.textfield.TextInputLayout android:id="@id/locality_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/locality_close_button_cta" android:layout_toStartOf="@id/locality_close_button_cta" app:hintTextAppearance="@style/HintStyle">
+                        <in.swiggy.android.view.SwiggyEditText android:id="@id/et_locality" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/third_party_lable_locality" style="@style/EditTextMedium15spBlackGrape100BlackGrape60Dominos" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </RelativeLayout>
+                <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/sub_locality_edit_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/twenty_gap" android:layout_below="@id/locality_edit_container">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/sub_locality_close_button_cta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+                        <in.swiggy.android.view.SwiggyImageButton android:id="@id/sub_locality_search_clear_button" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_clear_black_24dp" android:scaleType="fitCenter" android:layout_centerInParent="true" android:alpha="0.7" app:objectValue="clear-search-button" />
+                        <com.pnikosis.materialishprogress.ProgressWheel android:id="@id/sub_locality_search_progress_wheel" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_centerInParent="true" app:matProg_barColor="@color/nasty_orange" app:matProg_barWidth="2.0dip" app:matProg_linearProgress="true" app:matProg_progressIndeterminate="true" />
+                    </RelativeLayout>
+                    <com.google.android.material.textfield.TextInputLayout android:id="@id/sub_locality_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/sub_locality_close_button_cta" android:layout_toStartOf="@id/sub_locality_close_button_cta" app:hintTextAppearance="@style/HintStyle">
+                        <in.swiggy.android.view.SwiggyEditText android:id="@id/et_sub_locality" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/third_party_lable_sub_locality" style="@style/EditTextMedium15spBlackGrape100BlackGrape60Dominos" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </RelativeLayout>
+                <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/flat_edit_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/twenty_gap" android:layout_below="@id/sub_locality_edit_container">
+                <com.google.android.material.textfield.TextInputLayout android:id="@id/flat_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hintTextAppearance="@style/HintStyle">
+                    <in.swiggy.android.view.SwiggyEditText android:id="@id/et_flat" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/third_party_lable_flat" android:maxLength="10" style="@style/EditTextMedium15spBlackGrape100BlackGrape60Dominos" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/street_edit_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/twenty_gap" android:layout_below="@id/flat_edit_container">
+                <com.google.android.material.textfield.TextInputLayout android:id="@id/street_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hintTextAppearance="@style/HintStyle">
+                    <in.swiggy.android.view.SwiggyEditText android:id="@id/et_street" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/third_party_lable_street" style="@style/EditTextMedium15spBlackGrape100BlackGrape60Dominos" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+            <in.swiggy.android.view.SwiggyTextView android:gravity="center" android:id="@id/proceed_button" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="@dimen/gap_two_power_five" android:layout_marginBottom="@dimen/extra_gap_two_power_three" android:text="@string/third_party_proceed_to_pay" android:layout_below="@id/street_edit_container" style="@style/ButtonBold15spWhite100Orange100" />
+        </RelativeLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/options_layout" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/form_scroll_view">
+        <LinearLayout android:orientation="vertical" android:id="@id/no_response_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <in.swiggy.android.view.SwiggyTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/twenty_gap" android:layout_marginTop="@dimen/normal_gap" android:text="@string/no_reply" android:layout_marginStart="@dimen/twenty_gap" style="@style/TextMedium12spBlackGrape70" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/general_suggestions_recycler" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/twenty_gap" android:layout_marginRight="@dimen/twenty_gap" android:layout_marginStart="@dimen/twenty_gap" android:layout_marginEnd="@dimen/twenty_gap" />
+    </LinearLayout>
+</RelativeLayout>

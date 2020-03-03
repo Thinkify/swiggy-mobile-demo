@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/item_assured_bullet_point_0" android:paddingTop="@dimen/dimen_4dp" android:paddingBottom="@dimen/dimen_4dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.view.SwiggyImageView android:tag="binding_1" android:layout_width="@dimen/bullet_point_width_height_small" android:layout_height="@dimen/bullet_point_width_height_small" />
+    <in.swiggy.android.view.SwiggyTextView android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_16dp" android:lineSpacingExtra="@dimen/font_size_2sp" style="@style/TextRegular12spBlackGrape60" />
+</LinearLayout>

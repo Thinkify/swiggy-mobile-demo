@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:tag="layout/item_pudo_slide_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/main_content" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/pudo_onboarding_1" android:scaleType="fitStart" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/wrapper_main_content" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/main_content" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="@id/main_content" app:layout_constraintStart_toStartOf="@id/main_content" app:layout_constraintTop_toTopOf="@id/main_content">
+        <ImageView android:id="@id/call_out" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/call_out_1" android:scaleType="fitStart" app:layout_constraintHeight_default="percent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_default="percent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

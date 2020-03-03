@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/preorder_bottomsheet_dialog_layout_0" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/main_content_view_flipper_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/date_selection_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@color/chain_restaurant_halfcard_header_background_color" android:paddingLeft="@dimen/dimen_16dp" android:paddingTop="@dimen/preorder_dialog_header_padding_top" android:paddingRight="@dimen/dimen_16dp" android:paddingBottom="@dimen/preorder_dialog_header_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen_16dp" android:paddingEnd="@dimen/dimen_16dp">
+                <in.swiggy.android.view.SwiggyTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/set_delivery_date" style="@style/PreorderSlotBookingDialogHeaderStyle" />
+                <in.swiggy.android.view.SwiggyTextView android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_6dp" style="@style/PreorderSlotBookingDialogSubHeaderStyle" />
+            </LinearLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <in.swiggy.android.view.wheelview.SwiggyWheelView android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View android:layout_gravity="top" android:background="@drawable/know_more_info_bottom_gradient_bg" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+                <View android:layout_gravity="bottom" android:background="@drawable/know_more_info_bottom_gradient_bg" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/time_selection_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@color/chain_restaurant_halfcard_header_background_color" android:paddingLeft="@dimen/dimen_16dp" android:paddingTop="@dimen/preorder_dialog_header_padding_top" android:paddingRight="@dimen/dimen_16dp" android:paddingBottom="@dimen/preorder_dialog_header_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen_16dp" android:paddingEnd="@dimen/dimen_16dp">
+                <in.swiggy.android.view.SwiggyTextView android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PreorderSlotBookingDialogHeaderStyle" />
+                <in.swiggy.android.view.SwiggyTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_6dp" android:text="@string/preorder_time_slot_selection_description" style="@style/PreorderSlotBookingDialogSubHeaderStyle" />
+            </LinearLayout>
+            <in.swiggy.android.view.wheelview.SwiggyWheelView android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+    <androidx.cardview.widget.CardView android:id="@id/button_save_date" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardElevation="@dimen/dimen_8dp">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <in.swiggy.android.view.SwiggyTextView android:id="@id/set_time_button" android:tag="binding_5" android:paddingLeft="@dimen/dimen_16dp" android:paddingTop="@dimen/dimen_12dp" android:paddingRight="@dimen/dimen_16dp" android:paddingBottom="@dimen/dimen_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_16dp" android:minHeight="0.0dip" android:text="@string/preorder_select_time_slot_button_text" android:textAlignment="center" android:paddingStart="@dimen/dimen_16dp" android:paddingEnd="@dimen/dimen_16dp" style="@style/PreorderSlotBookingDialogSetTimeButtonStyle" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/time_slot_selection_action_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_16dp">
+                <in.swiggy.android.view.SwiggyTextView android:tag="binding_6" android:paddingLeft="@dimen/dimen_16dp" android:paddingTop="@dimen/dimen_12dp" android:paddingRight="@dimen/dimen_16dp" android:paddingBottom="@dimen/dimen_12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/ripple_rectangle_orange" android:minHeight="0.0dip" android:text="@string/preorder_change_date" android:paddingStart="@dimen/dimen_16dp" android:paddingEnd="@dimen/dimen_16dp" style="@style/PreorderSlotBookingDialogChangeDateButtonStyle" />
+                <in.swiggy.android.view.SwiggyTextView android:tag="binding_7" android:paddingLeft="@dimen/dimen_16dp" android:paddingTop="@dimen/dimen_12dp" android:paddingRight="@dimen/dimen_16dp" android:paddingBottom="@dimen/dimen_12dp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_16dp" android:minHeight="0.0dip" android:text="@string/preorder_set_delivery_slot_button_text" android:layout_weight="1.0" android:textAlignment="center" android:paddingStart="@dimen/dimen_16dp" android:paddingEnd="@dimen/dimen_16dp" android:layout_marginStart="@dimen/dimen_16dp" style="@style/PreorderSlotBookingDialogSetDeliverySlotButtonStyle" />
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

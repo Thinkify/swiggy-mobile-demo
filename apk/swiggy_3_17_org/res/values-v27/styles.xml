@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NavDrawerAppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/white100</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/white100</item>
+        <item name="android:navigationBarColor">@color/white100</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarDividerColor">@color/blackGrape0</item>
+        <item name="colorAccent">@color/accent_color</item>
+        <item name="colorControlActivated">@color/nasty_orange</item>
+        <item name="colorControlHighlight">@color/transparent</item>
+        <item name="colorControlNormal">@color/fifteen_percent_black</item>
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_color_dark</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+</resources>

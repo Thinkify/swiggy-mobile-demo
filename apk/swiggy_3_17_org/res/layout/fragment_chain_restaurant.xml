@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_chain_restaurant_0" android:background="@color/chain_restaurant_halfcard_header_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.pnikosis.materialishprogress.ProgressWheel android:layout_gravity="center" android:id="@id/progress_wheel" android:tag="binding_1" android:visibility="gone" android:layout_width="@dimen/dimen_200dp" android:layout_height="@dimen/dimen_200dp" app:matProg_barColor="@color/nasty_orange" app:matProg_barWidth="2.0dip" app:matProg_progressIndeterminate="true" />
+    <LinearLayout android:orientation="vertical" android:tag="binding_2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/fragment_chain_restaurant__header" android:paddingTop="@dimen/chain_restaurant_halfcard__header_padding_top" android:paddingBottom="@dimen/chain_restaurant_halfcard__header_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/chain_restaurant_halfcard__header_padding_left" android:paddingEnd="@dimen/chain_restaurant_halfcard__header_padding_right">
+            <in.swiggy.android.view.SwiggyImageView android:tag="binding_3" android:layout_width="@dimen/restaurant_item_card_width" android:layout_height="@dimen/restaurant_item_card_width" app:shimColor="@color/default_image_overlay_color" app:shimMode="darken" />
+            <in.swiggy.android.view.SwiggyTextView android:ellipsize="end" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chain_restaurant_halfcard__header_title_margin_top" android:maxLines="2" style="@style/ChainRestaurantHalfCard_HeaderTitleTextStyle" />
+            <in.swiggy.android.view.SwiggyTextView android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chain_restaurant_halfcard__header_subtitle_margin_top" style="@style/ChainRestaurantHalfCard_HeaderSubTitleTextStyle" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:tag="binding_6" android:background="@color/white100" android:paddingBottom="@dimen/dimen_16dp" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

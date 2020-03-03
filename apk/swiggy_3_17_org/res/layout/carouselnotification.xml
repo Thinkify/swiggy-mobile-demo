@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/maintitlebar" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="64.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/imageopenicon" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_alignParentLeft="true" android:contentDescription="Notification Icon" android:layout_marginEnd="10.0dip" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/imageopenicon" android:layout_centerVertical="true" android:layout_toEndOf="@id/imageopenicon"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/imagetitleopen" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Wedding Special Collection" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff7f7f7f" android:id="@id/imagesubtitleopen" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Checkout the latest Indie collection " />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="180.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:layout_gravity="center" android:id="@id/imagenotimiddle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+        <ImageView android:layout_gravity="start|center" android:id="@id/imagenotileft" android:background="#80ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:layout_alignParentStart="true" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/imagenotiright" android:background="#80ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/subtitlebar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <ImageView android:id="@id/imageopenicon_bottom" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:src="@drawable/gamooga_logo" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_alignParentLeft="true" android:contentDescription="Notification Icon" android:layout_marginEnd="10.0dip" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0" android:layout_toRightOf="@id/imageopenicon_bottom">
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="start|bottom|center" android:layout_gravity="center" android:id="@id/imagetitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Chiffon top in yellow" android:layout_weight="1.0" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff777777" android:gravity="start|center|top" android:layout_gravity="center" android:id="@id/imagesubtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="$ 9.99" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:id="@id/tick" android:drawable="@drawable/vd_pathmorph_crosstick_tick" />
+    <item android:id="@id/cross" android:drawable="@drawable/vd_pathmorph_crosstick_cross" />
+    <transition android:drawable="@drawable/avd_pathmorph_crosstick_cross_to_tick" android:toId="@id/tick" android:fromId="@id/cross" />
+    <transition android:drawable="@drawable/avd_pathmorph_crosstick_tick_to_cross" android:toId="@id/cross" android:fromId="@id/tick" />
+</animated-selector>

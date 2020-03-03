@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/restaurant_menu_offers_v2_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/offersIconLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <in.swiggy.android.commonsui.view.IconTextView android:textSize="@dimen/font_size_15sp" android:textColor="@color/coffee100" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fontIcon="offer" />
+        <in.swiggy.android.commonsui.view.IconTextView android:textSize="@dimen/font_size_6sp" android:textColor="@color/white100" android:layout_gravity="center" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fontIcon="percentage" />
+        <in.swiggy.android.commonsui.view.IconTextView android:textSize="@dimen/font_size_14sp" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fontIcon="freebie_icon_v2" />
+    </FrameLayout>
+    <in.swiggy.android.view.SwiggyTextView android:textSize="@dimen/font_size_14sp" android:tag="binding_4" android:layout_width="@dimen/dimen_0dp" android:layout_height="wrap_content" android:text="50% OFF on all orders on Main Course" android:maxLines="2" android:layout_centerVertical="true" android:lineSpacingExtra="@dimen/dimen_3dp" android:fontFamily="@font/proxima_nova_regular" android:layout_marginStart="@dimen/dimen_8dp" android:layout_marginEnd="@dimen/dimen_4dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/offersIconLayout" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:visibilityWhenLoading="gone" />
+</androidx.constraintlayout.widget.ConstraintLayout>

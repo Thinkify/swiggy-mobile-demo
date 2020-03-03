@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/item_disposition_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen_20dp" android:layout_marginEnd="@dimen/dimen_20dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:tag="binding_1" android:layout_width="@dimen/dimen_64dp" android:layout_height="@dimen/dimen_64dp" android:contentDescription="@string/disposition_image" />
+    <com.airbnb.lottie.LottieAnimationView android:tag="binding_2" android:visibility="gone" android:layout_width="@dimen/dimen_64dp" android:layout_height="@dimen/dimen_64dp" app:lottie_autoPlay="false" app:lottie_repeatCount="0" />
+    <TextView android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10dp" android:maxWidth="@dimen/dimen_84dp" android:text="Taste" android:maxLines="2" android:fontFamily="@font/proxima_nova_regular" style="@style/TextRegular14spBlackGrape100" />
+    <TextView android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:tag="binding_4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10dp" android:maxWidth="@dimen/dimen_84dp" android:text="Taste" android:maxLines="2" android:fontFamily="@font/proxima_nova_semibold" style="@style/TextSemiBold14spBlackGrape100" />
+</LinearLayout>

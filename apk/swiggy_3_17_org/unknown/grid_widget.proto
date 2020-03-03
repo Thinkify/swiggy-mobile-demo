@@ -1,0 +1,99 @@
+syntax = "proto3";
+
+option java_package = "com.swiggy.gandalf.home.protobuf";
+option java_multiple_files = true;
+
+//Info about cta type like redirection link, type , text, etc This can be re-used.
+message Cta {
+    string link = 1;
+    string text = 2;
+    string type = 3;
+}
+
+//MetaInfo about dimension.
+message Dimension {
+
+    Type type = 1;
+    float value = 2;
+    RelativeDimensionReference reference = 3;
+
+    //This enum defines type of positioning absolute or relative i.e. depends on device or not.
+    enum Type {
+        TYPE_INVALID = 0;
+        TYPE_RELATIVE = 1;
+        TYPE_ABSOLUTE = 2;
+    }
+    //This enum defines if  dimension is relative then what property for relativity is used.
+    enum RelativeDimensionReference {
+        RELATIVE_DIMENSION_REFERENCE_INVALID = 0;
+        RELATIVE_DIMENSION_REFERENCE_DEVICE_WIDTH = 1;
+        RELATIVE_DIMENSION_REFERENCE_DEVICE_HEIGHT = 2;
+        RELATIVE_DIMENSION_REFERENCE_WIDTH = 3;
+        RELATIVE_DIMENSION_REFERENCE_HEIGHT = 4;
+        RELATIVE_DIMENSION_REFERENCE_CONTAINER_WIDTH = 5;
+    }
+}
+
+
+// This will contain the m*n cards.
+message GridWidget {
+    Header header = 1;
+    Layout layout = 2;
+    oneof grid_cards {
+        ImageInfoLayoutCard image_grid_cards = 3;
+    }
+    string id = 4;
+}
+
+// Info about title of the card, subtitle, on click action.
+message Header {
+    string title = 1;
+    string subtitle = 2;
+    Cta action = 3;
+    string image_id = 4;
+}
+
+//This contains info about the image grid card it's layout and data.
+message ImageInfoLayoutCard {
+    repeated ImageCardInfo info = 1;
+    ItemStyle style = 3;
+
+    // This provides info about the data part of the card. If something needs to be supported it can be added here and it will be backward compatible. The reason for making this inbuilt is it will not be re-used as per the discussion with app team.
+    message ImageCardInfo {
+        string id = 1;
+        string image_id = 2;
+        Cta action = 3;
+    }
+
+    // Info about item style and like dimension , dimension type relative or absolute . This will be specifc to every card. From this layout has been segregated
+    message ItemStyle {
+        Dimension width = 1;
+        Dimension height = 2;
+    }
+}
+
+// Contains info about how m*n grid should be rendered on app.
+message Layout {
+    int32 rows = 1;
+    int32 columns = 2;
+    bool horizontal_scroll_enabled = 3;
+    bool should_snap = 4;
+    float item_spacing = 5;
+    float line_spacing = 6;
+    Padding widget_padding = 7;
+    ContainerStyle container_style = 8;
+    float view_port = 9;
+
+    // Contains info about root level padding of the whole card i.e. parent holder card.
+    message ContainerStyle {
+        Padding container_padding = 1;
+    }
+}
+
+// Contains info about padding in ux.
+message Padding {
+    float left = 1;
+    float top = 2;
+    float right = 3;
+    float bottom = 4;
+}

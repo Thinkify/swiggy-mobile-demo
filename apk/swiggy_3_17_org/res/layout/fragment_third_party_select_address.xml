@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/translucentBlack20" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.view.SwiggyTextView android:id="@id/address_required_message" android:background="@color/blackGrape80" android:padding="@dimen/extra_gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/third_party_address_required_message" android:maxLines="2" style="@style/TextRegular12spWhite80" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/address_required_message">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="@dimen/margin_28dp" android:layout_marginRight="@dimen/margin_16dp" android:layout_marginBottom="@dimen/margin_16dp" android:layout_marginStart="@dimen/margin_16dp" android:layout_marginEnd="@dimen/margin_16dp">
+            <in.swiggy.android.view.SwiggyTextView android:id="@id/tv_select_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/third_party_select_address_info_lable1" style="@style/TextMedium11spBlackGrape70Caps" />
+            <in.swiggy.android.view.SwiggyTextView android:id="@id/tv_swipe_left_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/third_party_select_address_info_lable2" style="@style/TextRegular10spBlackGrape60" />
+        </LinearLayout>
+        <ScrollView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingRight="@dimen/margin_16dp" android:paddingBottom="@dimen/margin_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/margin_16dp">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/address_recycler_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <in.swiggy.android.view.SwiggyButton android:gravity="center" android:id="@id/add_new_address_button" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_40dp" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="@dimen/margin_24dp" android:foreground="@drawable/ripple_rectangle" android:text="@string/third_party_add_new_address_action_text" android:layout_marginStart="@dimen/margin_16dp" app:objectName="@string/gtm_third_party_add_new_address" style="@style/ButtonBold15spGuavaGreen100White100" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

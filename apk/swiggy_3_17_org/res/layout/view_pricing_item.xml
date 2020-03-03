@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/view_pricing_item_0" android:paddingLeft="16.0dip" android:paddingTop="4.0dip" android:paddingRight="16.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/item_name" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="@font/proxima_nova_regular" style="@style/TextRegular12spBlackGrape90" />
+    <TextView android:id="@id/item_price" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/proxima_nova_regular" app:layout_constraintRight_toRightOf="parent" style="@style/TextRegular12spBlackGrape90" />
+</androidx.constraintlayout.widget.ConstraintLayout>

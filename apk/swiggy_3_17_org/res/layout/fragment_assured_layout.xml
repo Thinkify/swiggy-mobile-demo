@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/fragment_assured_layout_0" android:background="@color/assured_screen_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.view.SwiggyImageView android:background="@drawable/assured_card_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_300dp" />
+    <FrameLayout android:id="@id/closeImageViewLayout" android:tag="binding_1" android:padding="@dimen/dimen_18dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/closeImageView" android:background="@color/transparent" android:layout_width="@dimen/dimen_14dp" android:layout_height="@dimen/dimen_14dp" android:layout_marginTop="@dimen/dimen_12dp" android:src="@drawable/assured_close_icon" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </FrameLayout>
+    <in.swiggy.android.view.SwiggyRecyclerView android:tag="binding_2" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/closeImageViewLayout" app:listenContentLoadingUpdates="true" />
+</RelativeLayout>

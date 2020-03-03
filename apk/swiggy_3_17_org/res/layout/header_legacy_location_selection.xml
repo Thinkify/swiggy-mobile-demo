@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:tag="layout/header_legacy_location_selection_0" android:layout_width="wrap_content" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:tag="binding_1" android:background="@drawable/ripple_rectangle" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <in.swiggy.android.view.SwiggyTextView android:id="@id/location" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/TextStyleLocationAnnotationHeader" />
+            <in.swiggy.android.commonsui.view.IconTextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/orange100" android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_6dp" android:layout_marginStart="@dimen/dimen_6dp" app:fontIcon="down_arrow_large" />
+        </LinearLayout>
+        <in.swiggy.android.view.SwiggyTextView android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_2dp" android:includeFontPadding="false" style="@style/TextStyleRestaurantListingLocationSubHeader" />
+    </LinearLayout>
+</LinearLayout>

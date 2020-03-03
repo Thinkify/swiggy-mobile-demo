@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_order_details_0" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.commonsui.view.toolbar.AdvancedToolbar android:id="@id/toolbar" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/divider_view" android:layout_width="fill_parent" app:layout_constraintTop_toBottomOf="@id/toolbar" style="@style/DividerViewStyle" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/pricing_details" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/cta_divider" app:layout_constraintTop_toBottomOf="@id/divider_view" />
+    <View android:id="@id/cta_divider" android:tag="binding_3" android:background="@color/paleGreyThree" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_16dp" app:layout_constraintBottom_toTopOf="@id/cta" />
+    <View android:tag="binding_4" android:background="@color/blackGrape20" android:layout_width="fill_parent" android:layout_height="0.20000005dip" app:layout_constraintBottom_toTopOf="@id/cta" />
+    <TextView android:gravity="center" android:id="@id/cta" android:tag="binding_5" android:background="@drawable/ripple_rectangle" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:fontFamily="@font/proxima_nova_bold" app:layout_constraintBottom_toBottomOf="parent" style="@style/TextBold14spOrange100Caps" />
+    <in.swiggy.android.commonsui.view.plainshimmer.PlainShimmerLayout android:tag="binding_6" android:background="@color/blackGrape10" android:layout_width="200.0dip" android:layout_height="14.0dip" app:layout_constraintBottom_toBottomOf="@id/cta" app:layout_constraintLeft_toLeftOf="@id/cta" app:layout_constraintRight_toRightOf="@id/cta" app:layout_constraintTop_toTopOf="@id/cta" app:shimmer_auto_start="true" app:shimmer_base_alpha="0.4" app:shimmer_direction="left_to_right" app:shimmer_dropoff="0.5" app:shimmer_duration="1500" app:shimmer_tilt="0.0" />
+    <include layout="@layout/view_illustration_details" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<in.swiggy.android.view.SwiggyLinearLayout android:gravity="center_vertical" android:id="@id/offer_layout" android:tag="layout/header_offers_0" android:background="@drawable/ripple_rectangle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen_16dp" android:paddingEnd="@dimen/margin_restaurant_listing_screen_right"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.view.SwiggyImageView android:layout_width="@dimen/dimen_30dp" android:layout_height="@dimen/dimen_30dp" android:src="@drawable/ic_offers_icon" />
+    <in.swiggy.android.view.SwiggyTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/offers" android:includeFontPadding="false" android:layout_marginStart="@dimen/dimen_3dp" style="@style/TextSemiBold15spBlackGrape100" />
+    <in.swiggy.android.commonsui.view.plainshimmer.PlainShimmerLayout android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen_4dp" app:shimmer_auto_start="true" app:shimmer_base_alpha="0.8" app:shimmer_direction="right_to_left" app:shimmer_dropoff="0.3" app:shimmer_duration="400" app:shimmer_highlight_alpha="0.5" app:shimmer_repeat_delay="1200" app:shimmer_tilt="-35.0">
+        <in.swiggy.android.view.SwiggyTextView android:tag="binding_2" android:paddingTop="@dimen/dimen_2dp" android:paddingBottom="@dimen/dimen_1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_lable" android:includeFontPadding="false" android:paddingStart="@dimen/dimen_3dp" android:paddingEnd="@dimen/dimen_3dp" style="@style/TextCondensedBold9spWhite100Caps" />
+    </in.swiggy.android.commonsui.view.plainshimmer.PlainShimmerLayout>
+</in.swiggy.android.view.SwiggyLinearLayout>

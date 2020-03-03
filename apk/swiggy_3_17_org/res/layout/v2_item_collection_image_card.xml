@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/v2_item_collection_image_card_0" android:layout_width="fill_parent" android:layout_height="@dimen/collection_header_view_new_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.view.SwiggyImageView android:id="@id/iv_entity_image" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent" app:visibilityWhenLoading="visible" />
+    <in.swiggy.android.commonsui.view.IconTextView android:tag="binding_2" android:paddingLeft="@dimen/dimen_16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_40dp" android:paddingStart="@dimen/dimen_16dp" style="@style/DefaultBackButtonIconAppearanceWhite" />
+</FrameLayout>

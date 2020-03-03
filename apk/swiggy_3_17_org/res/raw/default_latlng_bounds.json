@@ -1,0 +1,84 @@
+{
+  "operational_city_bounds_list": [
+    {
+      "southwest": {
+        "latitude": 12.734289,
+        "longitude": 77.379198
+      },
+      "northeast": {
+        "latitude": 13.173706,
+        "longitude": 77.882681
+      }
+    },
+    {
+      "southwest": {
+        "latitude": 17.216889,
+        "longitude": 78.159922
+      },
+      "northeast": {
+        "latitude": 17.607809,
+        "longitude": 78.656169
+      }
+    },
+    {
+      "southwest": {
+        "latitude": 18.892868,
+        "longitude": 72.775873
+      },
+      "northeast": {
+        "latitude": 19.271634,
+        "longitude": 72.986499
+      }
+    },
+    {
+      "southwest": {
+        "latitude": 12.833885,
+        "longitude": 80.081701
+      },
+      "northeast": {
+        "latitude": 13.261166,
+        "longitude": 80.336323
+      }
+    },
+    {
+      "southwest": {
+        "latitude": 27.052390,
+        "longitude": 75.949620
+      },
+      "northeast": {
+        "latitude": 29.974530,
+        "longitude": 78.492110
+      }
+    },
+    {
+      "southwest": {
+        "latitude": 22.343629,
+        "longitude": 88.193636
+      },
+      "northeast": {
+        "latitude": 23.008363,
+        "longitude": 88.542870
+      }
+    },
+    {
+      "southwest": {
+        "latitude": 18.413478,
+        "longitude": 73.739478
+      },
+      "northeast": {
+        "latitude": 18.635755,
+        "longitude": 73.986457
+      }
+    },
+    {
+      "southwest": {
+        "latitude": 12.734289,
+        "longitude": 77.379198
+      },
+      "northeast": {
+        "latitude": 13.173706,
+        "longitude": 77.882681
+      }
+    }
+  ]
+}

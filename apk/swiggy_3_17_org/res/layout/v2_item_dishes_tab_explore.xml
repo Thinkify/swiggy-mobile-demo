@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/v2_item_dishes_tab_explore_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <in.swiggy.android.view.ShimmerFrameLayout android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tilt="0">
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/dishes_tab_suggestion_list" android:tag="binding_3" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:objectName="@string/gtm_restaurants_list_name" />
+                </in.swiggy.android.view.ShimmerFrameLayout>
+                <androidx.recyclerview.widget.RecyclerView android:tag="binding_4" android:paddingBottom="@dimen/dimen_120dp" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:objectName="@string/gtm_restaurants_list_name" />
+            </FrameLayout>
+            <View android:background="@color/activity_grey_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <LinearLayout android:tag="binding_5" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/v2_item_restaurant_info_dish_tab" />
+        </LinearLayout>
+    </FrameLayout>
+    <in.swiggy.android.view.SwiggyCardView android:layout_gravity="bottom" android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_48dp" android:layout_marginBottom="@dimen/dimen_72dp" android:layout_marginStart="@dimen/dimen_16dp" android:layout_marginEnd="@dimen/dimen_16dp" app:cardBackgroundColor="@color/nasty_green" app:cardCornerRadius="@dimen/dimen_4dp" app:cardElevation="@dimen/dimen_2dp">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dimen_8dp" android:layout_marginBottom="@dimen/dimen_8dp" android:layout_marginStart="@dimen/dimen_16dp" android:layout_marginEnd="@dimen/dimen_16dp">
+            <in.swiggy.android.view.SwiggyTextView android:id="@id/dishMenuItemsCount" android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextBold15spWhite100" />
+            <in.swiggy.android.view.SwiggyTextView android:id="@id/dishItemSeperator" android:layout_width="@dimen/dimen_5dp" android:layout_height="@dimen/dimen_15dp" android:text="|" android:layout_marginStart="@dimen/dimen_8dp" android:layout_marginEnd="@dimen/dimen_8dp" android:layout_toEndOf="@id/dishMenuItemsCount" style="@style/TextBold15spWhite100" />
+            <in.swiggy.android.view.SwiggyTextView android:id="@id/dishMenuItemsTotalPrice" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@id/dishItemSeperator" style="@style/TextBold15spWhite100" />
+            <in.swiggy.android.view.SwiggyTextView android:id="@id/dishMenuRestaurantName" android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@style/TextMedium8spWhite100" />
+            <in.swiggy.android.view.SwiggyTextView android:id="@id/dishMenuCartCTA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cart_crouton_view_cart" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dimen_8dp" android:layout_toStartOf="@id/dishMenuCartIcon" style="@style/TextBold15spWhite100Caps" />
+            <in.swiggy.android.commonsui.view.IconTextView android:textSize="@dimen/font_size_16sp" android:textColor="@color/white100" android:id="@id/dishMenuCartIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:fontIcon="cart_outlined" style="@style/TextBold15spWhite100Caps" />
+        </RelativeLayout>
+    </in.swiggy.android.view.SwiggyCardView>
+    <FrameLayout android:tag="binding_10" android:paddingBottom="@dimen/bottom_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/v2_item_explore_illustration_details" />
+    </FrameLayout>
+</FrameLayout>

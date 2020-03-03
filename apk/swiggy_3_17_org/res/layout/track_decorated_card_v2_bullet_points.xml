@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/track_decorated_card_v2_bullet_points_0" android:background="@color/transparent" android:padding="@dimen/dimen_2dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <in.swiggy.android.view.SwiggyTextView android:id="@id/benefitsText" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextRegular12spWhite60" />
+</androidx.constraintlayout.widget.ConstraintLayout>

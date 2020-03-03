@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_layout" android:tag="layout/item_track_order_states_layout_new_0" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/orderReceivedState" layout="@layout/item_track_order_state_layout_new" />
+    <include android:id="@id/orderConfirmedState" layout="@layout/item_track_order_state_layout_new" />
+    <include android:id="@id/orderPickedUpState" layout="@layout/item_track_order_state_layout_new" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/item_review_cart_discount_message_layout_0" android:background="@color/white100" android:paddingTop="@dimen/dimen_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_36dp" android:layout_marginStart="@dimen/dimen_16dp" android:layout_marginEnd="@dimen/dimen_16dp">
+        <in.swiggy.android.view.SwiggyImageView android:layout_gravity="center_vertical" android:id="@id/superLogo" android:tag="binding_2" android:background="@drawable/bb_super_near_me_selected" android:layout_width="@dimen/dimen_22dp" android:layout_height="@dimen/dimen_22dp" android:layout_marginStart="@dimen/dimen_8dp" />
+        <in.swiggy.android.view.SwiggyTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="AVAILABLE COUPONS" android:maxLines="2" android:lineSpacingExtra="3.0sp" android:paddingStart="@dimen/dimen_8dp" android:paddingEnd="@dimen/dimen_12dp" style="@style/TextSemiBold13spGreenBlue100" />
+    </LinearLayout>
+</RelativeLayout>

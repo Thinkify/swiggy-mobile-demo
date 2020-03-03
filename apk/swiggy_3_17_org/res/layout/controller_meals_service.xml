@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/controller_meals_service_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/edvo_view_shimmer" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/meals_edvo_shimmer" />
+    <include android:id="@id/combo_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/meal_combo_info" />
+    <FrameLayout android:tag="binding_1" android:background="@color/white" android:paddingBottom="@dimen/bottom_bar_height" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/v2_item_illustration_details" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

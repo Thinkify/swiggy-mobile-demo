@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/activity_track_order_new_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/track_order__activity_controller_container" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/pip_overlay" android:background="@color/blackGrape0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+</FrameLayout>

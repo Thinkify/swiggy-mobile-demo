@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<in.swiggy.android.view.SwiggyLinearLayout android:orientation="vertical" android:id="@id/payment_group_container" android:background="@color/translucentBlack20" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <in.swiggy.android.view.SwiggyTextView android:ellipsize="end" android:id="@id/header_tv" android:paddingLeft="@dimen/margin_16dp" android:paddingTop="@dimen/margin_24dp" android:paddingRight="@dimen/margin_16dp" android:paddingBottom="@dimen/margin_14dp" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="@dimen/margin_16dp" android:paddingEnd="@dimen/margin_16dp" style="@style/TextMedium11spBlackGrape80Caps" />
+    <in.swiggy.android.view.SwiggyTextView android:ellipsize="end" android:id="@id/offer_tv" android:paddingLeft="@dimen/margin_16dp" android:paddingRight="@dimen/margin_16dp" android:paddingBottom="@dimen/margin_8dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:paddingStart="@dimen/margin_16dp" android:paddingEnd="@dimen/margin_16dp" style="@style/TextRegular9spBlackGrape60" />
+</in.swiggy.android.view.SwiggyLinearLayout>

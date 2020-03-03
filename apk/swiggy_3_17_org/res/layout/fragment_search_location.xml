@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_search_location_0" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/search_layout" layout="@layout/view_location_search" />
+    <com.facebook.litho.LithoView android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/search_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

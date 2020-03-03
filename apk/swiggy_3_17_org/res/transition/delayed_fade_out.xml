@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fade android:fadingMode="fade_in">
+        <targets>
+            <target android:targetId="@id/circleGreen" />
+            <target android:targetId="@id/tickGreen" />
+            <target android:targetId="@id/circleRed" />
+            <target android:targetId="@id/tickRed" />
+        </targets>
+    </fade>
+    <changeTransform>
+        <targets>
+            <target android:targetId="@id/circleGreen" />
+            <target android:targetId="@id/tickGreen" />
+            <target android:targetId="@id/circleRed" />
+            <target android:targetId="@id/tickRed" />
+        </targets>
+    </changeTransform>
+</transitionSet>

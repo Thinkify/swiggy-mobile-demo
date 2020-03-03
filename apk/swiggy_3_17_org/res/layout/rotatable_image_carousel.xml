@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="600.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/square1" android:layout_width="@dimen/rotatable_card_width" android:layout_height="@dimen/rotatable_card_height" android:src="@drawable/pop_rotatable_image_2" android:rotation="0.0" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/square2" android:layout_width="@dimen/rotatable_card_width" android:layout_height="@dimen/rotatable_card_height" android:src="@drawable/pop_rotatable_image_1" android:rotation="0.0" />
+    <androidx.cardview.widget.CardView android:layout_gravity="center_horizontal" android:id="@id/square5" android:visibility="gone" android:layout_width="@dimen/rotatable_card_width" android:layout_height="@dimen/rotatable_card_height" app:cardBackgroundColor="@color/white100" app:cardCornerRadius="@dimen/dimen_12dp" app:cardElevation="@dimen/dimen_0dp">
+        <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pop_rotatable_image_1" />
+    </androidx.cardview.widget.CardView>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/square3" android:layout_width="@dimen/rotatable_card_width" android:layout_height="@dimen/rotatable_card_height" android:src="@drawable/pop_rotatable_image_3" />
+</FrameLayout>

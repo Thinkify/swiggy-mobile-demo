@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/v2_more_customization_item_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_8dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <in.swiggy.android.view.VegIndicator android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/VegIndicatorStyle" />
+    <androidx.appcompat.widget.AppCompatCheckBox android:visibility="invisible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <in.swiggy.android.view.SwiggyTextView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_8dp" android:text="4 MORE" android:layout_marginStart="@dimen/margin_8dp" style="@style/TextSemiBold13spCandyBlue" />
+</LinearLayout>

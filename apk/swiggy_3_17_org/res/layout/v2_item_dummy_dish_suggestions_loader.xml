@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/v2_item_dummy_dish_suggestions_loader_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.view.ShimmerFrameLayout android:tag="binding_1" android:paddingLeft="@dimen/dimen_16dp" android:paddingTop="@dimen/dimen_20dp" android:paddingRight="@dimen/dimen_16dp" android:paddingBottom="@dimen/dimen_20dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen_16dp" android:paddingEnd="@dimen/dimen_16dp" app:tilt="0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <in.swiggy.android.view.SwiggyTextView android:layout_width="fill_parent" android:layout_height="wrap_content" app:loaderHeightFraction="0.9" app:loaderWidthFraction="0.5" app:visibilityWhenLoading="visible" style="@style/TextRegular12spBlackGrape70" />
+            <in.swiggy.android.view.SwiggyTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_12dp" app:loaderWidthFraction="0.4" app:visibilityWhenLoading="visible" style="@style/TextRegular11spBlackGrape70" />
+            <FrameLayout android:tag="binding_2" android:background="@drawable/menu_dotted_divider" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_marginTop="@dimen/dimen_16dp" />
+            <in.swiggy.android.view.SwiggyTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_32dp" android:layout_marginBottom="@dimen/dimen_12dp" app:loaderHeightFraction="0.9" app:loaderWidthFraction="0.5" app:visibilityWhenLoading="visible" style="@style/TextRegular12spBlackGrape70" />
+            <in.swiggy.android.view.SwiggyTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_32dp" app:loaderWidthFraction="0.6" app:visibilityWhenLoading="visible" style="@style/TextRegular10spBlackGrape100" />
+            <in.swiggy.android.view.SwiggyTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_12dp" app:loaderHeightFraction="0.9" app:loaderWidthFraction="0.5" app:visibilityWhenLoading="visible" style="@style/TextRegular12spBlackGrape70" />
+            <in.swiggy.android.view.SwiggyTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_32dp" app:loaderWidthFraction="0.6" app:visibilityWhenLoading="visible" style="@style/TextRegular10spBlackGrape100" />
+            <in.swiggy.android.view.SwiggyTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_12dp" app:loaderHeightFraction="0.9" app:loaderWidthFraction="0.5" app:visibilityWhenLoading="visible" style="@style/TextRegular12spBlackGrape70" />
+            <in.swiggy.android.view.SwiggyTextView android:layout_width="fill_parent" android:layout_height="wrap_content" app:loaderWidthFraction="0.6" app:visibilityWhenLoading="visible" style="@style/TextRegular10spBlackGrape100" />
+        </LinearLayout>
+    </in.swiggy.android.view.ShimmerFrameLayout>
+    <View android:background="@color/activity_grey_background" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_40dp" />
+</LinearLayout>

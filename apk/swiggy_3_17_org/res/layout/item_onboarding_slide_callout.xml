@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_onboarding_slide_callout_0" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintDimensionRatio="1:1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/call_out_1" android:scaleType="fitStart" app:layout_constraintHeight_default="percent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_default="percent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

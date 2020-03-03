@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/item_order_summary_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <in.swiggy.android.view.SwiggyTextView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextRegular12spBlackGrape60" />
+    <in.swiggy.android.view.SwiggyTextView android:id="@id/price" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" style="@style/TextSemiBold13spBlackGrape100" />
+    <in.swiggy.android.view.SwiggyTextView android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_64dp" android:layout_alignParentRight="true" style="@style/TextSemiBold13spBlackGrape100" />
+</RelativeLayout>

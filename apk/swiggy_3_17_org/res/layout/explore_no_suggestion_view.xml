@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/explore_no_suggestion_view_0" android:paddingTop="@dimen/dimen_8dp" android:paddingBottom="@dimen/dimen_2dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_12dp" android:paddingStart="@dimen/dimen_16dp" android:paddingEnd="@dimen/dimen_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/iconFrameLayout" android:layout_width="@dimen/dimen_48dp" android:layout_height="@dimen/dimen_48dp" app:cardCornerRadius="@dimen/dimen_4dp" app:cardElevation="@dimen/dimen_0dp">
+        <in.swiggy.android.view.SwiggyImageView android:background="@drawable/search_suggestions_image_border" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/search_suggestion_icon" android:scaleType="centerCrop" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+    </androidx.cardview.widget.CardView>
+    <in.swiggy.android.view.SwiggyTextView android:textSize="@dimen/font_size_15sp" android:textColor="@color/charcoalGrey" android:id="@id/textName" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/proxima_nova_semibold" android:layout_marginStart="@dimen/dimen_16dp" app:layout_constraintBottom_toBottomOf="@id/iconFrameLayout" app:layout_constraintLeft_toRightOf="@id/iconFrameLayout" app:layout_constraintTop_toTopOf="@id/iconFrameLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

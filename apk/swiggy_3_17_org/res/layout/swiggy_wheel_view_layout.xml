@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/swiggy_wheel_view_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.view.SwiggyRecyclerView android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent" app:snapCenter="true" />
+    <View android:id="@id/top_divider" android:background="@color/blackGrape10" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_0_3dp" android:layout_marginBottom="@dimen/dimen_20dp" app:layout_constraintBottom_toTopOf="@id/bottom_divider" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+    <View android:id="@id/bottom_divider" android:background="@color/blackGrape10" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_0_3dp" android:layout_marginTop="@dimen/dimen_20dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/top_divider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

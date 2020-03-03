@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/header_home_v3_0" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_56dp" android:paddingStart="@dimen/dimen_16dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/header_location_selection_home_v3" />
+    <include android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/header_offers_v3" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:tag="layout/item_swiggy_wheel_text_layout_0" android:padding="@dimen/dimen_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <in.swiggy.android.view.SwiggyTextView android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center" android:tag="binding_1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="11:30 AM - 12:00 PM" android:maxLines="1" style="@style/TextMedium14spBlackGrape50" />
+    <in.swiggy.android.view.SwiggyTextView android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center" android:tag="binding_2" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="11:30 AM - 12:00 PM" android:maxLines="1" style="@style/TextSemiBold16spBlackGrape100" />
+</FrameLayout>

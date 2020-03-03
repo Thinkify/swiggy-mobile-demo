@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/tooltip_title_view_0" android:padding="@dimen/dimen_10dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.view.SwiggyTextView android:ellipsize="end" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/TextMedium12spBlackGrape80" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/controller_home_listing_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/header" layout="@layout/header_home_v3" />
+    <View android:id="@id/address_tool_tip_anchor" android:visibility="invisible" android:layout_width="fill_parent" app:layout_constraintTop_toBottomOf="@id/header" style="@style/DividerViewStyle" />
+    <com.facebook.litho.LithoView android:id="@id/lithoView" android:tag="binding_1" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/address_tool_tip_anchor" />
+    <com.facebook.litho.LithoView android:tag="binding_2" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/header" />
+    <in.swiggy.android.view.CustomToolTipView android:id="@id/toolTipView" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="fill_parent" app:appearance="@style/ListingToolTipStyle" />
+    <FrameLayout android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/v3_error_layout" />
+    </FrameLayout>
+    <View android:id="@id/header_shadow" android:tag="binding_5" android:background="@drawable/header_bottom_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_6dp" app:layout_constraintTop_toBottomOf="@id/header" />
+</androidx.constraintlayout.widget.ConstraintLayout>

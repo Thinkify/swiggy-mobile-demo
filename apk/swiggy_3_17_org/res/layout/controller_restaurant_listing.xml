@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/controller_restaurant_listing_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/header_3_0" layout="@layout/header_listing_v3" />
+        <include android:id="@id/header_new" layout="@layout/header_new" />
+        <include android:id="@id/header_legacy" layout="@layout/header_legacy" />
+        <View android:id="@id/address_tool_tip_anchor" android:visibility="invisible" android:layout_width="fill_parent" style="@style/DividerViewStyle" />
+        <FrameLayout android:id="@id/shimmer_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <in.swiggy.android.view.ShimmerFrameLayout android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tilt="0">
+                <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <in.swiggy.android.view.SwiggyRecyclerView android:id="@id/listing_recycler_view" android:tag="binding_4" android:paddingBottom="@dimen/dimen_56dp" android:layout_width="fill_parent" android:layout_height="fill_parent" app:clearPoolOnLoadingStatusChange="false" app:interceptTouch="true" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:listenContentLoadingUpdates="true" app:objectName="@string/gtm_restaurants_list_name" app:prelayoutExtraSpaceFraction="1.5" app:prelayoutExtraSpaceOnlyOnLoad="true" style="@style/RecyclerViewStyleRestaurantListing" />
+                </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+                <in.swiggy.android.view.fastscroller.SwiggyFastScroller android:layout_gravity="end" android:id="@id/listing__fast_scroller" android:tag="binding_5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_visibilityWhenLoading="gone" />
+                <FrameLayout android:id="@id/sort_and_filter_button_container" android:tag="binding_6" android:background="@color/white95" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_32dp" app:layout_anchorGravity="top" app:layout_visibilityWhenLoading="gone">
+                    <View android:layout_gravity="top" android:layout_width="fill_parent" style="@style/DividerViewStyle" />
+                    <in.swiggy.android.view.SwiggyTextView android:layout_gravity="center_vertical" android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextStyleRestaurantListingInfoMessage" />
+                    <LinearLayout android:layout_gravity="end|center" android:id="@id/restaurant_listing__sort_and_filter_button" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dimen_16dp" android:layout_marginRight="@dimen/dimen_16dp">
+                        <in.swiggy.android.commonsui.view.IconTextView android:textSize="@dimen/dimen_16dp" android:textColor="@color/blackGrape80" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="@dimen/dimen_16dp" android:layout_height="@dimen/dimen_16dp" app:fontIcon="filter" />
+                        <in.swiggy.android.view.SwiggyTextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/sort_or_filter" android:layout_marginStart="@dimen/dimen_8dp" style="@style/TextStyleRestaurantListingSort" />
+                        <View android:layout_gravity="center_vertical" android:tag="binding_9" android:background="@drawable/green_dot" android:layout_width="@dimen/dimen_5dp" android:layout_height="@dimen/dimen_5dp" android:layout_marginStart="@dimen/dimen_4dp" />
+                    </LinearLayout>
+                    <View android:layout_gravity="bottom" android:layout_width="fill_parent" style="@style/DividerViewStyle" />
+                </FrameLayout>
+            </in.swiggy.android.view.ShimmerFrameLayout>
+            <FrameLayout android:tag="binding_10" android:paddingBottom="@dimen/bottom_bar_height" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/v2_item_illustration_details" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/listing__sort_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <in.swiggy.android.view.CustomToolTipView android:id="@id/toolTipView" android:tag="binding_11" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:appearance="@style/ListingToolTipStyle" />
+</FrameLayout>

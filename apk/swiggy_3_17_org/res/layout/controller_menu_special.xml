@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/main_content" android:tag="layout/controller_menu_special_0" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <in.swiggy.android.commonsui.view.toolbar.CollapsingToolbarLayout android:theme="@style/AppTheme.AppBarOverlay" android:id="@id/collapsing_toolbar" android:tag="binding_1" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="@dimen/menu_special_header_image_height" app:collapsedTitleGravity="start|center" app:collapsedTitleTextAppearance="@style/TextBold16spWhite" app:expandedTitleMarginStart="@dimen/dimen_25dp" app:expandedTitleTextAppearance="@style/TextExtraBold28spWhite" app:layout_scrollFlags="exitUntilCollapsed|scroll" app:lineSpacingMultiplier="1.2" app:maxLines="3" app:statusBarScrim="@color/black" app:title="Title" app:titleEnabled="true">
+            <ImageView android:id="@id/background_image" android:tag="binding_2" android:background="@drawable/dark_to_light" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:layout_collapseMode="parallax" />
+            <View android:id="@id/background_gradient" android:background="@drawable/dark_to_light" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_collapseMode="parallax" />
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:contentInsetEnd="@dimen/dimen_50dp" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" app:contentInsetStart="0.0dip" app:contentInsetStartWithNavigation="0.0dip" app:layout_collapseMode="pin" app:title="">
+                <RelativeLayout android:tag="binding_3" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:layout_marginStart="@dimen/dimen_20dp">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_2dp" android:src="@drawable/vd_pathmorph_crosstick_cross2" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </in.swiggy.android.commonsui.view.toolbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@id/parent_layout" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <FrameLayout android:id="@id/orderIssueShrimmerLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <com.facebook.litho.LithoView android:id="@id/lithoView" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:gravity="bottom" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_150dp">
+        <in.swiggy.android.view.SwiggyCardView android:layout_gravity="bottom|center" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="@dimen/menu_fab_height" android:layout_marginBottom="@dimen/dimen_24dp" android:alpha="1.0" app:cardBackgroundColor="@color/candy_blue90" app:cardCornerRadius="@dimen/dimen_21dp" app:cardElevation="@dimen/dimen_4dp">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dimen_14dp" android:layout_marginRight="@dimen/dimen_14dp">
+                <in.swiggy.android.view.SwiggyTextView android:textColor="@color/white100" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/view_full_menu" android:maxLines="1" style="@style/TextBold13spCandyBlue90Caps" />
+            </LinearLayout>
+        </in.swiggy.android.view.SwiggyCardView>
+        <in.swiggy.android.view.SwiggyCardView android:layout_gravity="bottom" android:tag="binding_6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:translationY="@dimen/dimen_48dp" app:cardCornerRadius="@dimen/dimen_0dp" app:cardElevation="@dimen/dimen_8dp" app:objectName="test">
+            <in.swiggy.android.view.CartFab android:id="@id/cart_fab_container" android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </in.swiggy.android.view.SwiggyCardView>
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

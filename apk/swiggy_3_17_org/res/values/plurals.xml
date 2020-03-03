@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="cart_crouton_item">
+        <item quantity="other">" Items"</item>
+        <item quantity="one">" Item"</item>
+    </plurals>
+    <plurals name="custom_order_item_count">
+        <item quantity="other">You requested %d items</item>
+        <item quantity="one">You requested %d item</item>
+    </plurals>
+    <plurals name="itemCountPlural">
+        <item quantity="other">Items</item>
+        <item quantity="one">Item</item>
+    </plurals>
+    <plurals name="items_text">
+        <item quantity="other">%1$d items, ₹%2$d</item>
+        <item quantity="one">%1$d item, ₹%2$d</item>
+    </plurals>
+    <plurals name="more_matches_plural">
+        <item quantity="other">more matches</item>
+        <item quantity="one">more match</item>
+    </plurals>
+    <plurals name="n_item_x_amount">
+        <item quantity="other">%1$s items | ₹%2$s</item>
+        <item quantity="one">%1$s item | ₹%2$s</item>
+    </plurals>
+    <plurals name="num_items">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+    </plurals>
+    <plurals name="option_items">
+        <item quantity="other">+ %d MORE OPTIONS</item>
+        <item quantity="one">+ %d MORE OPTION</item>
+    </plurals>
+    <plurals name="outlets_available">
+        <item quantity="other">%1$s outlets near you</item>
+        <item quantity="one">%1$s outlet near you</item>
+    </plurals>
+    <plurals name="payment_item">
+        <item quantity="other">%1$d items, To pay: %2$s</item>
+        <item quantity="one">%1$d item, To pay: %2$s</item>
+    </plurals>
+</resources>

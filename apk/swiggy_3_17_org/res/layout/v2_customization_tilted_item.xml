@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:tag="layout/v2_customization_tilted_item_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_vertical" android:tag="binding_1" android:background="@color/blackGrape100" android:layout_width="@dimen/dimen_2dp" android:layout_height="@dimen/dimen_18dp" android:layout_marginRight="@dimen/margin_8dp" android:layout_marginEnd="@dimen/margin_8dp" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:tag="binding_2" android:background="@drawable/dot_separator" android:layout_width="2.0dip" android:layout_height="2.0dip" />
+        <in.swiggy.android.view.RotatedTextView android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_12dp" android:layout_marginBottom="@dimen/margin_12dp" android:text="Category Name" android:textAllCaps="true" style="@style/TextSemiBold10spBlackGrape60" />
+    </LinearLayout>
+</LinearLayout>

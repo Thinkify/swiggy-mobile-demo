@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="120.0dip" android:width="120.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="crossTickGroup" android:pivotX="12.0" android:pivotY="12.0">
+        <path android:name="crossPath" android:pathData=" M12, 12         L20, 20         M12, 12         L4, 4         M4, 20         L20, 4" android:strokeColor="#ffffffff" android:strokeWidth="1.5" android:strokeLineCap="round" />
+    </group>
+</vector>

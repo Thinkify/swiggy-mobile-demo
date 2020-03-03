@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView android:tag="layout/v2_layout_breadcrumb_0" android:paddingLeft="@dimen/margin_restaurant_listing_screen_left" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/margin_restaurant_listing_screen_left"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

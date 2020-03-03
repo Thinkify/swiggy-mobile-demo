@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/header_legacy_0" style="@style/AppBarStyleRestaurantListing"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/header_legacy_location_selection" />
+    <include android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/header_offers" />
+</LinearLayout>

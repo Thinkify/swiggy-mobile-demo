@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:layout_gravity="center|left|top" android:id="@id/imageopenicon" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginBottom="12.0dip" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textSize="15.0dip" android:textColor="#ff000000" android:layout_gravity="center|top" android:id="@id/imagetitleopen" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="10.0dip" android:textColor="#ff000000" android:layout_gravity="center|top" android:id="@id/imagesubtitleopen" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:textStyle="bold" android:layout_gravity="center" android:id="@id/imagenotimiddle" android:layout_width="wrap_content" android:layout_height="190.0dip" android:layout_marginBottom="1.0dip" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <ImageView android:layout_gravity="center|left" android:id="@id/imagenotileft" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/imagenotiright" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="#ff000000" android:layout_gravity="center|top" android:id="@id/imagetitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="8.0dip" android:textColor="#ff000000" android:layout_gravity="center|top" android:id="@id/imagesubtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

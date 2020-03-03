@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/activity_restaurant_listing_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/restaurant_listing_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <in.swiggy.android.view.SwiggyCardView android:layout_gravity="bottom" android:tag="binding_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:translationY="@dimen/dimen_48dp" app:cardCornerRadius="@dimen/dimen_0dp" app:cardElevation="@dimen/dimen_8dp" app:objectName="test">
+        <in.swiggy.android.view.CartFab android:id="@id/cart_fab_container" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </in.swiggy.android.view.SwiggyCardView>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/v2_addon_item_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_8dp" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <in.swiggy.android.view.VegIndicator android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/VegIndicatorStyle" />
+    <androidx.appcompat.widget.AppCompatCheckBox android:tag="binding_2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:buttonTint="@drawable/radio_tint_list" />
+    <in.swiggy.android.view.SwiggyTextView android:ellipsize="end" android:tag="binding_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_8dp" android:text="AddonName" android:maxLines="2" android:layout_weight="1.0" android:layout_marginStart="@dimen/margin_8dp" style="@style/TextMedium14spBlackGrape80" />
+    <in.swiggy.android.view.SwiggyTextView android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_8dp" android:text="Rs15" android:layout_marginStart="@dimen/margin_8dp" style="@style/TextRegular13spBlackGrape70" />
+</LinearLayout>

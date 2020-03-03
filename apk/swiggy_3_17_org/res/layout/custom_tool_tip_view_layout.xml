@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/custom_tool_tip_view_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/out_side_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/tool_tip_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <in.swiggy.android.commonsui.view.IconTextView android:textSize="@dimen/font_size_9sp" android:textColor="@color/white100" android:layout_gravity="center_vertical" android:id="@id/tooltip_close_icon" android:paddingTop="@dimen/dimen_12dp" android:paddingBottom="@dimen/dimen_8dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" app:fontIcon="close" />
+        <View android:id="@id/close_button_bottom_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_28dp" android:layout_alignParentTop="true" />
+        <in.swiggy.android.commonsui.view.IconTextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/white100" android:layout_gravity="center_vertical" android:id="@id/tooltip_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dimen_12dp" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/textMessageLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/close_button_bottom_view" android:layout_toEndOf="@id/tooltip_icon">
+            <in.swiggy.android.view.SwiggyTextView android:textSize="@dimen/font_size_15sp" android:id="@id/tool_tip_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_6dp" android:text="wjhaefghjsdvgdfjh" style="@style/BaseTextStyle" />
+            <in.swiggy.android.view.SwiggyTextView android:textSize="@dimen/font_size_12sp" android:id="@id/tool_tip_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="jhegfwhjefgwejhfgfjhrfgjehfgjehf" android:lineSpacingExtra="@dimen/dimen_2dp" style="@style/BaseTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/tool_tip_button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_20dp" android:layout_below="@id/textMessageLayout">
+            <in.swiggy.android.view.SwiggyTextView android:gravity="center" android:id="@id/negative_cta" android:background="@drawable/background_4c7ec7_rectangle" android:padding="@dimen/dimen_9dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" android:layout_marginEnd="@dimen/dimen_13dp" style="@style/TextSemiBold12spWhite80AllCaps" />
+            <in.swiggy.android.view.SwiggyTextView android:gravity="center" android:id="@id/positive_cta" android:background="@drawable/background_4c7ec7_rectangle" android:padding="@dimen/dimen_9dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="center" style="@style/TextSemiBold12spWhite100AllCaps" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/translucentBlack20" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/payment_normal_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/payment_valid_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/payment_invalid_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/paytm_otp_input_fragment" android:background="@color/window_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/paytm_add_money_container" android:background="@color/window_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/paytm_place_order_container" android:background="@color/window_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/activity_payments_confirm_order_conversion_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/activity_payments_confirm_netbanking_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/activity_payment_new_card_container" android:background="@color/window_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/activity_payment_new_tp_web_view" android:background="@color/window_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/activity_payment_food_card_web_view" android:background="@color/window_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/activity_payment_retry_view" android:background="@color/white100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <in.swiggy.android.view.SwiggyImageView android:layout_gravity="center_horizontal" android:id="@id/activity_payment_retry_view_image" android:layout_width="280.0dip" android:layout_height="200.0dip" android:src="@drawable/connection_error" android:scaleType="fitCenter" android:layout_above="@id/content_container" />
+                <LinearLayout android:orientation="vertical" android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_48dp" android:layout_alignParentBottom="true">
+                    <androidx.percentlayout.widget.PercentFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_16dp">
+                        <in.swiggy.android.view.SwiggyTextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/activity_payment_retry_view_title" android:layout_height="wrap_content" android:text="@string/payment_failure_title" android:maxLines="2" android:textAllCaps="true" app:layout_widthPercent="79.99999%" style="@style/TextBold14spBlackGrape80" />
+                    </androidx.percentlayout.widget.PercentFrameLayout>
+                    <androidx.percentlayout.widget.PercentFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_16dp">
+                        <in.swiggy.android.view.SwiggyTextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/activity_payment_retry_view_desc" android:layout_height="wrap_content" android:text="@string/payment_failure_desc" android:maxLines="4" android:lineSpacingExtra="@dimen/dimen_2dp" app:layout_widthPercent="75.0%" style="@style/TextRegular12spBlackGrape40" />
+                    </androidx.percentlayout.widget.PercentFrameLayout>
+                    <in.swiggy.android.view.SwiggyTextView android:layout_gravity="center_horizontal" android:id="@id/retry_button" android:paddingLeft="@dimen/dimen_20dp" android:paddingTop="@dimen/dimen_12dp" android:paddingRight="@dimen/dimen_20dp" android:paddingBottom="@dimen/dimen_12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8dp" android:foreground="@drawable/ripple_rectangle" android:text="@string/retry" android:paddingStart="@dimen/dimen_20dp" android:paddingEnd="@dimen/dimen_20dp" style="@style/ButtonBold12spOrange100White100" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <com.pnikosis.materialishprogress.ProgressWheel android:layout_gravity="center" android:id="@id/paymentScreenProgressWheel" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" app:matProg_barColor="@color/nasty_orange" app:matProg_progressIndeterminate="true" />
+    </FrameLayout>
+</LinearLayout>

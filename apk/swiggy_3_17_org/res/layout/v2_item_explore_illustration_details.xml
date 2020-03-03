@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/v2_item_explore_illustration_details_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.view.SwiggyTextView android:tag="binding_1" android:paddingLeft="@dimen/margin_restaurant_listing_screen_left" android:paddingTop="@dimen/dimen_24dp" android:paddingRight="@dimen/margin_restaurant_listing_screen_right" android:paddingBottom="@dimen/dimen_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="false" android:paddingStart="@dimen/margin_restaurant_listing_screen_left" android:paddingEnd="@dimen/margin_restaurant_listing_screen_right" style="@style/TextBold17spBlackGrape100" />
+    <View android:tag="binding_2" android:background="@color/blackGrape10" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_1dp" />
+    <FrameLayout android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/v2_item_illustration_details" />
+    </FrameLayout>
+</LinearLayout>

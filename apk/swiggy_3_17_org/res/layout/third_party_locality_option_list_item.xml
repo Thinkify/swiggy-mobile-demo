@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_gap"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <in.swiggy.android.view.SwiggyTextView android:id="@id/locality_name_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/normal_gap" style="@style/TextMedium12spBlackGrape70" />
+    <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/separator_height" android:layout_marginTop="@dimen/normal_gap" />
+</LinearLayout>

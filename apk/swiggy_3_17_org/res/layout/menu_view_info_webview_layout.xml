@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:tag="layout/menu_view_info_webview_layout_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.mvvm.bindings.SwiggyWebview android:id="@id/viewinfo_webview" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/menu_tab_line_height" />
+    <FrameLayout android:tag="binding_2" android:background="@color/white100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/v2_item_illustration_details" />
+    </FrameLayout>
+    <ProgressBar android:id="@id/progressBar" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

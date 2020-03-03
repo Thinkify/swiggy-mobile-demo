@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/item_track_order_eta_layout_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.view.SwiggyCardView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_14dp" android:layout_marginEnd="@dimen/dimen_14dp" app:cardBackgroundColor="@color/track_eta_bg" app:cardCornerRadius="@dimen/dimen_3dp" app:cardElevation="@dimen/dimen_6dp">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/eta_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <in.swiggy.android.view.SwiggyTextView android:id="@id/titleTv" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_12dp" android:layout_marginTop="@dimen/dimen_12dp" android:layout_marginRight="@dimen/dimen_12dp" android:text="ARRIVING IN" android:maxLines="1" style="@style/TextRegular10spWhite60" />
+            <in.swiggy.android.view.SwiggyTextView android:id="@id/etaTextTv" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_12dp" android:layout_marginTop="@dimen/dimen_4dp" android:layout_marginRight="@dimen/dimen_12dp" android:layout_marginBottom="@dimen/dimen_12dp" android:text="20 - 25 mins" android:maxLines="1" style="@style/TextBold16spWhite100" />
+            <in.swiggy.android.view.SwiggyTextView android:gravity="center" android:layout_gravity="center" android:id="@id/labelTv" android:tag="binding_4" android:background="@drawable/track_eta_label_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_4dp" android:layout_marginRight="@dimen/dimen_4dp" android:layout_marginBottom="@dimen/dimen_4dp" android:text="ON TIME" android:maxLines="1" style="@style/TextBoldPurple12spCaps" />
+        </LinearLayout>
+    </in.swiggy.android.view.SwiggyCardView>
+</FrameLayout>

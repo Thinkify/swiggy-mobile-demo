@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:tag="layout/menu_disposition_item_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:tag="binding_1" android:visibility="gone" android:layout_width="@dimen/dimen_60dp" android:layout_height="@dimen/dimen_60dp" android:layout_marginBottom="@dimen/dimen_8dp" />
+    <TextView android:textSize="@dimen/dimen_13sp" android:textColor="@color/blackGrape100" android:id="@id/lable_text" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Taste" android:fontFamily="@font/proxima_nova_bold" android:lineHeight="@dimen/dimen_22sp" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/dimen_14sp" android:textColor="@color/blackGrape100" android:id="@id/value_text" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="70%" android:fontFamily="@font/proxima_nova_bold" />
+        <in.swiggy.android.commonsui.view.IconTextView android:textSize="12.0sp" android:textColor="@color/blackGrape100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_5dp" app:fontIcon="thumbs_up_icon" />
+    </LinearLayout>
+</LinearLayout>

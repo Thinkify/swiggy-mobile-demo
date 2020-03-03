@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:tag="layout/item_search_location_item_header_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="56.0dip" android:layout_marginStart="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="top" android:background="@color/blackGrape80" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <in.swiggy.android.view.SwiggyTextView android:ellipsize="end" android:id="@id/item_category_name" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_28dp" android:text="SAVED ADDRESSES" android:maxLines="1" style="@style/TextMedium12spBlackGrape70Caps" />
+</FrameLayout>

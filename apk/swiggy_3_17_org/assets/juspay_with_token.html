@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+</head>
+<body>
+<form class="form-inline" id="payment_form" style="display: none">
+    <input type="hidden" class="card_token" id="token_elem_id" value="5f72ad9b-9c47-45cb-8240-016b691bcbe3">
+    <input type="hidden" class="merchant_id" id="merchant_elem_id" value="guest">
+    <input type="hidden" class="order_id" id="order_elem_id" value="1425064877">
+    <input type="password" id="cvv_elem_id" class="span1 security_code" placeholder="CVV">
+    <button class="btn btn-primary make_payment" id="make_cc_payment" type="submit">Pay</button>
+</form>
+</body>
+
+
+<script type="text/javascript"
+        src="https://api.juspay.in/pay.js"></script>
+
+<!-- The payment form goes here. -->
+<!-- You need to validate the form. -->
+<!-- Ensure form elements don't have name attr. -->
+
+<script type="text/javascript">
+    Juspay.Setup({
+        payment_form: "#payment_form",
+        success_handler: function(status) {},
+        error_handler: function(error_code, 
+            error_message, bank_error_code, 
+            bank_error_message, gateway_id) {},
+    type: "express" // optional
+})
+
+</script>
+
+</html>

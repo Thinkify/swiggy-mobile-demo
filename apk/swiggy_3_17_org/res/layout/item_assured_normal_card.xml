@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:tag="layout/item_assured_normal_card_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_26dp" android:layout_marginTop="@dimen/dimen_4dp" android:layout_marginRight="@dimen/dimen_26dp" android:layout_marginStart="@dimen/dimen_26dp" android:layout_marginEnd="@dimen/dimen_26dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.view.SwiggyImageView android:tag="binding_1" android:layout_width="@dimen/dimen_88dp" android:layout_height="@dimen/dimen_125dp" android:scaleType="centerInside" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/dimen_32dp" android:paddingRight="@dimen/dimen_32dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dimen_170dp" android:layout_centerInParent="true" android:paddingStart="@dimen/dimen_32dp" android:paddingEnd="@dimen/dimen_32dp">
+        <in.swiggy.android.view.SwiggyTextView android:gravity="center" android:id="@id/titleTextView" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextBold16spBlackGrape100" />
+        <in.swiggy.android.view.SwiggyTextView android:gravity="center" android:id="@id/subTitleTextView" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5dp" android:lineSpacingExtra="@dimen/font_size_2sp" style="@style/TextRegular14spBlackGrape60" />
+    </LinearLayout>
+</RelativeLayout>

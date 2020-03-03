@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<in.swiggy.android.view.SwiggyTextView android:gravity="center_vertical" android:tag="layout/item_info_message_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_24dp" app:loaderHeightFraction="0.7" app:loaderWidthFraction="0.4" app:visibilityWhenLoading="visible" style="@style/TextStyleRestaurantListingInfoMessage"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

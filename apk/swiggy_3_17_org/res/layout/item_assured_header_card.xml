@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/item_assured_header_card_0" android:background="@color/section_card_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_170dp" android:layout_marginLeft="@dimen/dimen_26dp" android:layout_marginTop="@dimen/dimen_36dp" android:layout_marginRight="@dimen/dimen_26dp" android:layout_marginStart="@dimen/dimen_26dp" android:layout_marginEnd="@dimen/dimen_26dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.view.SwiggyImageView android:id="@id/headerIcon" android:tag="binding_1" android:layout_width="@dimen/dimen_70dp" android:layout_height="@dimen/dimen_50dp" android:scaleType="centerInside" />
+    <in.swiggy.android.view.SwiggyTextView android:id="@id/headerTextView" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_14dp" style="@style/TextBold20spBlackGrape100Caps" />
+</LinearLayout>

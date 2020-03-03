@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/header_location_selection_home_v3_0" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.view.SwiggyTextView android:ellipsize="end" android:id="@id/location" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dimen_215dp" android:maxLines="1" android:includeFontPadding="false" style="@style/TextExtraBold20spBlackGrape90" />
+    <in.swiggy.android.commonsui.view.IconTextView android:textSize="@dimen/font_size_12sp" android:textColor="@color/blackGrape100" android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_8dp" android:layout_marginStart="@dimen/dimen_8dp" app:fontIcon="down_arrow_large" />
+</LinearLayout>

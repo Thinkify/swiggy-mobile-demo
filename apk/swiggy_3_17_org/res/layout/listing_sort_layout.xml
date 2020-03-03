@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/listing_sort_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.view.SwiggyCardView android:id="@id/listing__sort_recycler_view_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" app:cardElevation="@dimen/dimen_10dp" app:cardUseCompatPadding="true">
+        <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/listing__sort_recycler_view" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:layout_gravity="top" android:id="@id/listing__upper_shade" android:background="@drawable/gradient_veil_top" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_24dp" />
+            <View android:layout_gravity="bottom" android:id="@id/listing__bottom_shade" android:background="@drawable/gradient_veil_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_24dp" />
+        </FrameLayout>
+    </in.swiggy.android.view.SwiggyCardView>
+</FrameLayout>

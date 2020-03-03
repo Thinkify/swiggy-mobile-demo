@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/maintitlebar" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="64.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/imageopenicon" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_alignParentLeft="true" android:contentDescription="Notification Icon" android:layout_marginEnd="10.0dip" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/imageopenicon" android:layout_centerVertical="true" android:layout_toEndOf="@id/imageopenicon"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/imagetitleopen" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Wedding Special Collection" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff7f7f7f" android:id="@id/imagesubtitleopen" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Checkout the latest Indie collection " />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:background="#ffeaeaea" android:layout_width="fill_parent" android:layout_height="180.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+            <LinearLayout android:layout_gravity="start|center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0" android:layout_marginEnd="10.0dip">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:layout_gravity="end|center" android:id="@id/imageleft" android:visibility="visible" android:layout_width="300.0dip" android:layout_height="wrap_content" android:scaleType="fitEnd" android:adjustViewBounds="true" android:contentDescription="Right image" />
+                    <ImageView android:layout_gravity="end|center" android:id="@id/imagenotileft" android:background="#ddffffff" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_image_prev" android:contentDescription="Button to browse previous images" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="8.0">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:layout_gravity="start|center" android:id="@id/imagenotimiddle" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" android:cropToPadding="true" android:contentDescription="Center image" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="end|center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0" android:layout_marginStart="10.0dip">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:layout_gravity="start|center" android:id="@id/imageright" android:visibility="visible" android:layout_width="300.0dip" android:layout_height="wrap_content" android:scaleType="fitStart" android:adjustViewBounds="true" android:foregroundGravity="center|left" android:contentDescription="Next Image" />
+                    <ImageView android:layout_gravity="start|center" android:id="@id/imagenotiright" android:background="#ddffffff" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_image_next" android:contentDescription="Button to browse next images" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/subtitlebar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/imageopenicon_bottom" android:padding="10.0dip" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/gamooga_logo" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_alignParentLeft="true" android:contentDescription="Notification Icon" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0" android:layout_toRightOf="@id/imageopenicon_bottom">
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:ellipsize="end" android:gravity="start|bottom|center" android:layout_gravity="center" android:id="@id/imagetitle" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Chiffon top in yellow" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" android:textAllCaps="false" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff777777" android:ellipsize="end" android:gravity="start|center|top" android:layout_gravity="center" android:id="@id/imagesubtitle" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="$ 9.99" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" android:textAllCaps="false" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

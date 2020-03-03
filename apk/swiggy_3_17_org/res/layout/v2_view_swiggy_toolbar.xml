@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/v2_view_swiggy_toolbar_0" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <in.swiggy.android.commonsui.view.IconTextView android:textSize="@dimen/font_size_18sp" android:textColor="@color/blackGrape90" android:gravity="center_vertical" android:id="@id/navigation_up_button" android:paddingLeft="@dimen/dimen_16dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/dimen_16dp" app:fontIcon="back" />
+        <in.swiggy.android.view.ShimmerFrameLayout android:layout_gravity="center_vertical" android:id="@id/shimmer_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_16dp" android:layout_marginStart="@dimen/dimen_16dp">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <in.swiggy.android.view.SwiggyTextView android:id="@id/tv_toolbar_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:loaderHeightFraction="0.8" app:loaderWidthFraction="0.5" app:textAllCaps="true" app:visibilityWhenLoading="visible" style="@style/TextStyleToolbarTitle" />
+                <in.swiggy.android.view.SwiggyTextView android:id="@id/tv_toolbar_subtitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:loaderHeightFraction="0.5" app:loaderWidthFraction="0.3" app:visibilityWhenLoading="visible" style="@style/TextStyleToolbarSubTitle" />
+            </LinearLayout>
+        </in.swiggy.android.view.ShimmerFrameLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/divider_view" android:visibility="gone" android:layout_width="fill_parent" style="@style/DividerViewStyle" />
+</FrameLayout>

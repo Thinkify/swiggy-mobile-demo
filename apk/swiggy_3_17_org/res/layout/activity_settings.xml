@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/activity_settings_0" android:background="@color/blackGrape0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.view.SwiggyToolbar android:id="@id/settings_toolbar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:showDivider="true" app:titleTextAppearance="@style/TextSemiBold15spBlackGrape100" />
+    <in.swiggy.android.view.SwiggyRecyclerView android:tag="binding_1" android:padding="@dimen/dimen_0dp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

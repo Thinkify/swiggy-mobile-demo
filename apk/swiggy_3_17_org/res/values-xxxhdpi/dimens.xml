@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dash_entry_card_subtitle">14.0dip</dimen>
+    <dimen name="dash_entry_image_background_radius">38.0dip</dimen>
+    <dimen name="dash_entry_image_background_size">76.0dip</dimen>
+    <dimen name="dash_entry_image_size">126.0dip</dimen>
+    <item type="dimen" name="dash_entry_shadow_scaleY">1.0</item>
+    <dimen name="font_size_10sp">11.0dip</dimen>
+    <dimen name="font_size_11sp">12.0dip</dimen>
+    <dimen name="font_size_12sp">13.0dip</dimen>
+    <dimen name="font_size_13sp">14.0dip</dimen>
+    <dimen name="font_size_14sp">15.0dip</dimen>
+    <dimen name="font_size_15sp">16.0dip</dimen>
+    <dimen name="font_size_16sp">17.0dip</dimen>
+    <dimen name="font_size_17sp">18.0dip</dimen>
+    <dimen name="font_size_18sp">19.0dip</dimen>
+    <dimen name="font_size_19sp">20.0dip</dimen>
+    <dimen name="font_size_20sp">21.0dip</dimen>
+    <dimen name="font_size_22sp">23.0dip</dimen>
+    <dimen name="font_size_24sp">25.0dip</dimen>
+    <dimen name="font_size_25sp">26.0dip</dimen>
+    <dimen name="font_size_26sp">27.0dip</dimen>
+    <dimen name="font_size_28sp">29.0dip</dimen>
+    <dimen name="font_size_2sp">3.0dip</dimen>
+    <dimen name="font_size_30sp">31.0dip</dimen>
+    <dimen name="font_size_32sp">33.0dip</dimen>
+    <dimen name="font_size_35sp">36.0dip</dimen>
+    <dimen name="font_size_3sp">4.0dip</dimen>
+    <dimen name="font_size_40sp">41.0dip</dimen>
+    <dimen name="font_size_48sp">49.0dip</dimen>
+    <dimen name="font_size_4sp">5.0dip</dimen>
+    <dimen name="font_size_54sp">55.0dip</dimen>
+    <dimen name="font_size_6sp">7.0dip</dimen>
+    <dimen name="font_size_7sp">8.0dip</dimen>
+    <dimen name="font_size_8sp">9.0dip</dimen>
+    <dimen name="font_size_9sp">10.0dip</dimen>
+    <dimen name="from_to_divider_height">40.0dip</dimen>
+    <dimen name="from_to_incomplete_divider_height">20.0dip</dimen>
+    <item type="dimen" name="title_launch_letter_spacing">0.0</item>
+</resources>

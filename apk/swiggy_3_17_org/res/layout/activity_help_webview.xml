@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:tag="layout/activity_help_webview_0" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.view.SwiggyToolbar android:id="@id/tool_bar" android:tag="binding_1" android:background="@color/white100" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:showDivider="false" />
+    <View android:id="@id/divider_view" android:tag="binding_2" android:visibility="visible" android:layout_width="fill_parent" android:layout_below="@id/tool_bar" style="@style/DividerViewStyle" />
+    <WebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/divider_view" />
+    <View android:id="@id/onTopLoader" android:tag="binding_3" android:background="@color/orange100" android:visibility="visible" android:layout_width="@dimen/dimen_16dp" android:layout_height="@dimen/dimen_2dp" android:layout_marginTop="@dimen/margin_4dp" android:layout_below="@id/divider_view" />
+    <FrameLayout android:tag="binding_4" android:paddingTop="@dimen/collections_toolbar_height" android:paddingBottom="@dimen/bottom_bar_height" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tool_bar">
+        <include android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/v2_item_illustration_details" />
+    </FrameLayout>
+</RelativeLayout>

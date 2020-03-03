@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/header_new_0" style="@style/AppBarStyleRestaurantListing"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/preorder_header" android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/header_preorder_selection" />
+    <in.swiggy.android.commonsui.view.IconTextView android:textSize="@dimen/font_size_8sp" android:textColor="@color/blackGrape80" android:layout_gravity="end|center" android:id="@id/to_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" app:fontIcon="icon_arrow_right" app:layout_constraintTop_toTopOf="parent" />
+    <include android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dimen_5dp" android:layout_weight="1.0" layout="@layout/header_location_selection" />
+    <include android:layout_gravity="center_vertical" android:id="@id/offers_header" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/header_offers" />
+</LinearLayout>

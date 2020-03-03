@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/error_container" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="146.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="33.0dip" android:layout_height="33.0dip" android:src="@drawable/ic_error_outline" android:tint="#ffbdbdbd" />
+    <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="#ff757575" android:id="@id/error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_upi_app_found_error" android:fontFamily="sans-serif" />
+</LinearLayout>

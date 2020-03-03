@@ -1,0 +1,63 @@
+syntax = "proto3";
+
+option java_package = "com.swiggy.gandalf.home.protobuf";
+option java_multiple_files = true;
+
+message RestaurantHomeDto {
+    string id = 1;
+    string name = 2;
+    bool third_party_address = 3;
+    string third_party_vendor = 4;
+    string cloudinary_image_id = 5;
+    string cost_for_two = 6;
+    repeated string cuisines = 7;
+    string ad_tracking_id = 8;
+    string sla_string = 9;
+    bool unserviceable = 10;
+    AggregatedDiscountInfoDTO aggregated_discountInfo = 11;
+    string avg_rating = 12;
+    bool is_select = 13;
+    bool veg = 14;
+    bool favourite = 15;
+    bool is_promoted = 16;
+    RestaurantAvailabilityHomeResponseDTO restaurant_availability = 17;
+    repeated ChainComponentDTO chain = 18;
+    repeated RibbonHomeData ribbon = 19;
+}
+
+message AggregatedDiscountInfoDTO {
+    string header = 1;
+    repeated DiscountMeta short_description_list = 2;
+    repeated DiscountMeta description_list = 3;
+
+    message DiscountMeta {
+        string meta = 1;
+        string discount_type = 2;
+        string operationType = 3;
+    }
+}
+
+message RestaurantAvailabilityHomeResponseDTO {
+    bool opened = 1;
+    string next_close_message = 2;
+    string next_open_message = 3;
+}
+
+message ChainComponentDTO {
+    AggregatedDiscountInfoDTO aggregated_discount_info = 1;
+    string avg_rating = 2;
+    string sla_string = 3;
+    bool select = 4;
+    string restaurant_id = 5;
+    bool is_promoted = 6;
+    string ad_tracking_id = 7;
+}
+
+message RibbonHomeData {
+    string type = 1;
+    RibbonMetaData ribbon_meta_data = 2;
+
+    message RibbonMetaData {
+        string text = 1;
+    }
+}

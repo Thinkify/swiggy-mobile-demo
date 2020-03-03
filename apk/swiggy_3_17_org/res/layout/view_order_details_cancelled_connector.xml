@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/view_order_details_cancelled_connector_0" android:layout_width="20.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/cancel_connector" android:background="@drawable/vertical_dotted_line" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginTop="1.0dip" android:layerType="software" app:layout_constraintLeft_toLeftOf="parent" />
+    <in.swiggy.android.commonsui.view.IconTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" app:fontIcon="broke" app:layout_constraintLeft_toLeftOf="@id/cancel_connector" app:layout_constraintRight_toRightOf="@id/cancel_connector" app:layout_constraintTop_toBottomOf="@id/cancel_connector" style="@style/TextRegular9spMelonRed100" />
+</androidx.constraintlayout.widget.ConstraintLayout>

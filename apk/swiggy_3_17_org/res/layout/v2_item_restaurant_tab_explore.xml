@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/v2_item_restaurant_tab_explore_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <in.swiggy.android.view.ShimmerFrameLayout android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tilt="0">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/restaurant_tab_list" android:tag="binding_3" android:paddingBottom="@dimen/dimen_40dp" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:objectName="@string/gtm_restaurants_list_name" />
+        </in.swiggy.android.view.ShimmerFrameLayout>
+    </FrameLayout>
+    <FrameLayout android:tag="binding_4" android:paddingBottom="@dimen/bottom_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/v2_item_explore_illustration_details" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/controller_issue_type_details_0" android:background="@color/blackGrape0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.view.SwiggyToolbar android:id="@id/tool_bar" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_alignParentTop="true" app:showDivider="true" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <in.swiggy.android.view.SwiggyTextView android:id="@id/swiggyTextView2" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="@dimen/margin_32dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextMedium11spBlackGrape80Caps" />
+            <in.swiggy.android.view.ShimmerFrameLayout android:id="@id/orderIssueShrimmerLayout" android:tag="binding_2" android:paddingBottom="@dimen/dimen_24dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_14dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/swiggyTextView2" app:tilt="0">
+                <in.swiggy.android.view.SwiggyRecyclerView android:id="@id/swiggyRecyclerView" android:tag="binding_3" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </in.swiggy.android.view.ShimmerFrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PreorderSlotBookingDialogChangeDateButtonStyle" parent="@style/ButtonBold14spOrange100White100" />
+    <style name="PreorderSlotBookingDialogHeaderStyle" parent="@style/TextSemiBold18spBlackGrape100" />
+    <style name="PreorderSlotBookingDialogSetDeliverySlotButtonStyle" parent="@style/ButtonBold14spWhite100Orange100EnableDisable" />
+    <style name="PreorderSlotBookingDialogSetTimeButtonStyle" parent="@style/ButtonBold14spOrange100White100EnableDisable">
+        <item name="android:textColor">@color/oragne100_orange30_enable_disable_text_color</item>
+    </style>
+</resources>

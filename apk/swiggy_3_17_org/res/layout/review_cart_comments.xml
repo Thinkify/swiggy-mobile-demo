@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/review_cart_comments_0" android:background="@color/white100" android:paddingTop="@dimen/dimen_10dp" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/cartCutlreyLayout" layout="@layout/review_cart_cutlrey" />
+    <View android:id="@id/cartHorizontalView" android:layout_width="fill_parent" android:layout_marginStart="@dimen/dimen_14dp" android:layout_marginEnd="@dimen/dimen_14dp" style="@style/DividerViewStyle2" />
+    <in.swiggy.android.view.viewgroups.FocusChangingEditText android:textColorHint="@color/blackGrape50" android:id="@id/cartCommentSection" android:tag="binding_1" android:background="@android:color/transparent" android:paddingTop="@dimen/dimen_16dp" android:paddingBottom="@dimen/dimen_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/order_comment_text_hint" android:maxLines="3" android:drawablePadding="@dimen/dimen_6dp" android:inputType="textCapSentences" android:imeOptions="actionDone" android:drawableStart="@drawable/ic_instructions" android:paddingStart="@dimen/dimen_18dp" android:paddingEnd="@dimen/dimen_22dp" style="@style/TextRegular13spBlackGrape70" />
+</LinearLayout>

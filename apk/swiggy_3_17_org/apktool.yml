@@ -1,0 +1,566 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: swiggy_3_17_org.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- META-INF/android.support.design_material.version
+- META-INF/androidx.activity_activity.version
+- META-INF/androidx.appcompat_appcompat-resources.version
+- META-INF/androidx.appcompat_appcompat.version
+- META-INF/androidx.arch.core_core-runtime.version
+- META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version
+- META-INF/androidx.browser_browser.version
+- META-INF/androidx.cardview_cardview.version
+- META-INF/androidx.coordinatorlayout_coordinatorlayout.version
+- META-INF/androidx.core_core-ktx.version
+- META-INF/androidx.core_core.version
+- META-INF/androidx.cursoradapter_cursoradapter.version
+- META-INF/androidx.customview_customview.version
+- META-INF/androidx.databinding_baseAdapters.version
+- META-INF/androidx.databinding_library.version
+- META-INF/androidx.documentfile_documentfile.version
+- META-INF/androidx.drawerlayout_drawerlayout.version
+- META-INF/androidx.dynamicanimation_dynamicanimation.version
+- META-INF/androidx.emoji_emoji.version
+- META-INF/androidx.fragment_fragment.version
+- META-INF/androidx.interpolator_interpolator.version
+- META-INF/androidx.legacy_legacy-support-core-ui.version
+- META-INF/androidx.legacy_legacy-support-core-utils.version
+- META-INF/androidx.legacy_legacy-support-v4.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core.version
+- META-INF/androidx.lifecycle_lifecycle-livedata.version
+- META-INF/androidx.lifecycle_lifecycle-runtime.version
+- META-INF/androidx.lifecycle_lifecycle-service.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel.version
+- META-INF/androidx.loader_loader.version
+- META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version
+- META-INF/androidx.media_media.version
+- META-INF/androidx.percentlayout_percentlayout.version
+- META-INF/androidx.print_print.version
+- META-INF/androidx.recyclerview_recyclerview.version
+- META-INF/androidx.remotecallback_remotecallback.version
+- META-INF/androidx.room_room-runtime.version
+- META-INF/androidx.savedstate_savedstate.version
+- META-INF/androidx.slice_slice-builders-ktx.version
+- META-INF/androidx.slice_slice-builders.version
+- META-INF/androidx.slice_slice-core.version
+- META-INF/androidx.slidingpanelayout_slidingpanelayout.version
+- META-INF/androidx.sqlite_sqlite-framework.version
+- META-INF/androidx.sqlite_sqlite.version
+- META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version
+- META-INF/androidx.transition_transition.version
+- META-INF/androidx.vectordrawable_vectordrawable-animated.version
+- META-INF/androidx.vectordrawable_vectordrawable.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- META-INF/androidx.viewpager_viewpager.version
+- META-INF/com.google.android.material_material.version
+- META-INF/litho/com.facebook.litho.sections.common.SingleComponentSectionSpec.props
+- META-INF/litho/com.facebook.litho.widget.LazySelectorComponentSpec.props
+- META-INF/litho/com.facebook.litho.widget.SelectorComponentSpec.props
+- META-INF/litho/com.facebook.litho.widget.SolidColorSpec.props
+- META-INF/litho/in.swiggy.android.dash.imageSearch.list.ImageSearchLoadingItemSpec.props
+- META-INF/litho/in.swiggy.android.dash.imageSearch.list.ShimmerFrontComponentSpec.props
+- META-INF/litho/in.swiggy.android.dash.searchlocation.list.GooglePoweredItemSpec.props
+- META-INF/litho/in.swiggy.android.dash.searchlocation.list.SearchLocationSectionSpec.props
+- META-INF/litho/in.swiggy.android.feature.account.component.AccountPlainTextComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.account.component.AppVersionComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.account.component.LoadMoreOrderComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.account.component.LogoutComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.account.component.NoOrderStateComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.account.component.OrderRatedInfoSpec.props
+- META-INF/litho/in.swiggy.android.feature.account.component.OrderServiceLineComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.account.component.OrderServiceLineSectionSpec.props
+- META-INF/litho/in.swiggy.android.feature.account.component.PastOrderLoadingComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.account.component.RetryComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.HomeListingSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.cards.CardDashSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.cards.CardEdmRatingSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.cards.items.ItemOfferSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.cards.items.ItemRestaurantMetadataSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.cards.items.ItemRibbonSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.cards.sections.CollectionOfferSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.cards.sections.SectionBannerSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.cards.sections.SectionBrandStoriesSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.cards.sections.SectionCollectionSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.cards.sections.SectionFavouriteRestaurantsSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.cards.sections.SectionLaunchSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.cards.sections.SectionPopCarouselSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.cards.sections.SectionTopBrandsSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.decorations.CardHeaderSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.decorations.DividerLithoSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.decorations.ListingEndSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.decorations.PaginationLoaderSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.placeholders.HomeListingLoadingSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.placeholders.ItemBannerLoadingSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.placeholders.ItemRestaurantLoadingSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.placeholders.SectionBannerLoadingSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.component.placeholders.SectionRestaurantLoadingSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.grid.component.CardGridSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.grid.component.GridEmptyItemSpec.props
+- META-INF/litho/in.swiggy.android.feature.home.grid.component.SectionGridSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.EmptySpaceComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.MenuLicenseComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.MenuListSectionSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.MenuListSpecialSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.MenuOfferItemComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.MenuRecommendedFullComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.MenuSpecialItemComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.SwiggyVegOnlyDetailsComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.carousel.MenuCarouselComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.carousel.MenuCarouselListSectionSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.focusgrid.MenuFocusGridListSectionSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.merchandisedcarousel.MenuMerchandisedCarouselComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.merchandisedcarousel.MenuMerchandisedCarouselItemComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.merchandisedcarousel.MenuMerchandisedCarouselListSectionSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.reorder.MenuReorderComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.reorder.MenuReorderItemComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.reorder.MenuReorderListSectionSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.search.MenuSearchListSectionSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.shimmer.MenuGridShimmerComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.topcategory.MenuTopCategoryHeaderComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.menu.components.topcategory.MenuTopCategoryViewLithoSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.BrandLogoRestaurantSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.CouponBankCardInfoViewSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.CouponBankCardV2ViewSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.CouponBenefitsViewSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.CouponCodeCardV2ViewSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.CouponCodeContainerSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.CouponTermsViewSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.OfferLogoRestaurantSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.RestaurantMetaInfoSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.ShimmerFrontComponentSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.basicrestaurantcomponents.BasicRestaurantNCMSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.basicrestaurantcomponents.CuisineNameSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.basicrestaurantcomponents.DeDupTextSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.basicrestaurantcomponents.RestaurantNameSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.basicrestaurantcomponents.RestaurantOfferTextSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.componentshimmer.CouponBankCardViewShimmerSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.componentshimmer.CouponCodeCardViewShimmerSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.componentshimmer.OfferRestaurantHorizontalShimmerSpec.props
+- META-INF/litho/in.swiggy.android.feature.offers.components.componentshimmer.OfferRestaurantShimmerSpec.props
+- META-INF/litho/in.swiggy.android.feature.video.ExoPlayerCustomViewLithoSpec.props
+- META-INF/litho/in.swiggy.android.lithocomponents.ProgressCircleSpec.props
+- assets/v1-boot_loader.jsa
+- assets/web_resource_mapping.json
+- png
+- assets/juspay/v1-boot_loader.jsa
+- assets/juspay/v1-config.jsa
+- assets/juspay/payments/in.juspay.ec.upi/v1-boot_loader.jsa
+- assets/juspay/payments/in.juspay.ec.upi/v1-config.jsa
+- assets/juspay/payments/in.juspay.ec.upi/v1-index_bundle.jsa
+- assets/juspay/payments/in.juspay.ec/v1-config.jsa
+- assets/juspay/payments/in.juspay.ec/v1-index_bundle.jsa
+- assets/juspay/payments/in.juspay.godel/v1-acs.jsa
+- assets/juspay/payments/in.juspay.godel/v1-boot_loader.jsa
+- assets/juspay/payments/in.juspay.godel/v1-config.jsa
+- assets/juspay/payments/in.juspay.godel/v1-index_bundle.jsa
+- assets/juspay/payments/in.juspay.gpay/v1-config.jsa
+- assets/juspay/payments/in.juspay.gpay/v1-index_bundle.jsa
+- assets/track_game_lottie/img_1.webp
+- assets/track_game_lottie/img_2.webp
+- assets/track_game_lottie/img_3.webp
+- assets/track_game_lottie/img_4.webp
+- assets/track_game_lottie/img_5.webp
+- assets/track_game_lottie/img_6.webp
+- assets/track_game_lottie/img_7.webp
+- assets/track_game_lottie/img_8.webp
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-app.3fd2717c94aa144f.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-app.7315e5b50b736311.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-app.76f26196d2312e03.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-app.c97db61960c5cd23.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-app.d4f7fdb4372822bc.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-app.d7f9306fc5ff6054.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-manifest.3fd2717c94aa144f.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-manifest.7315e5b50b736311.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-manifest.76f26196d2312e03.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-manifest.c97db61960c5cd23.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-manifest.d4f7fdb4372822bc.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-manifest.d7f9306fc5ff6054.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment-add-new-card.3fd2717c94aa144f.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment-add-new-card.7315e5b50b736311.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment-add-new-card.76f26196d2312e03.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment-add-new-card.d7f9306fc5ff6054.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment-timer.7315e5b50b736311.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment-timer.76f26196d2312e03.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment-timer.c97db61960c5cd23.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment-timer.d4f7fdb4372822bc.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment-timer.d7f9306fc5ff6054.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment-upi.3fd2717c94aa144f.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment-upi.7315e5b50b736311.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment-upi.76f26196d2312e03.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment-upi.c97db61960c5cd23.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment-upi.d4f7fdb4372822bc.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment-upi.d7f9306fc5ff6054.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment.7315e5b50b736311.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment.76f26196d2312e03.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment.d4f7fdb4372822bc.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-payment.d7f9306fc5ff6054.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-swiggyPay.7315e5b50b736311.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-swiggyPay.76f26196d2312e03.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-swiggyPay.d7f9306fc5ff6054.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-swiggySuper.7315e5b50b736311.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-swiggySuper.76f26196d2312e03.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-swiggySuper.d4f7fdb4372822bc.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-swiggySuper.d7f9306fc5ff6054.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-vendor.7315e5b50b736311.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-vendor.76f26196d2312e03.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-vendor.d4f7fdb4372822bc.js.gzip
+- assets/web_resources/https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fraw%2Fupload%2Fstatic-assets%2Fproduction_ci_pwa%2Fjs%2Fes2015-vendor.d7f9306fc5ff6054.js.gzip
+- assets/web_resources/https%3A%2F%2Fs3-ap-southeast-1.amazonaws.com%2Fstatic.swiggy%2Fdash-front%2Fjs%2Fmanifest.es6.090a1e31a1cac8f6.js.gzip
+- assets/web_resources/https%3A%2F%2Fs3-ap-southeast-1.amazonaws.com%2Fstatic.swiggy%2Fdash-front%2Fjs%2Fmanifest.es6.416a5048a17bf0ab.js.gzip
+- assets/web_resources/https%3A%2F%2Fs3-ap-southeast-1.amazonaws.com%2Fstatic.swiggy%2Fdash-front%2Fjs%2Fmisc.es6.090a1e31a1cac8f6.js.gzip
+- assets/web_resources/https%3A%2F%2Fs3-ap-southeast-1.amazonaws.com%2Fstatic.swiggy%2Fdash-front%2Fjs%2Fmisc.es6.416a5048a17bf0ab.js.gzip
+- assets/web_resources/https%3A%2F%2Fs3-ap-southeast-1.amazonaws.com%2Fstatic.swiggy%2Fdash-front%2Fjs%2Fvendors.es6.416a5048a17bf0ab.js.gzip
+- assets/web_resources/https%3A%2F%2Fs3-ap-southeast-1.amazonaws.com%2Fstatic.swiggy%2Fproduction_pwa_helpcenter%2Fjs%2Fapp.1ef9cf8b4fea941f969.js.gzip
+- assets/web_resources/https%3A%2F%2Fs3-ap-southeast-1.amazonaws.com%2Fstatic.swiggy%2Fproduction_pwa_helpcenter%2Fjs%2FhelpChatEngine.57fd3b5ae0cdcb73990.js.gzip
+- assets/web_resources/https%3A%2F%2Fs3-ap-southeast-1.amazonaws.com%2Fstatic.swiggy%2Fproduction_pwa_helpcenter%2Fjs%2FhelpConversations.41e34761810f8ac218c.js.gzip
+- assets/web_resources/https%3A%2F%2Fs3-ap-southeast-1.amazonaws.com%2Fstatic.swiggy%2Fproduction_pwa_helpcenter%2Fjs%2FhelpFreshChat.f819dd989e4bf79809a.js.gzip
+- assets/web_resources/https%3A%2F%2Fs3-ap-southeast-1.amazonaws.com%2Fstatic.swiggy%2Fproduction_pwa_helpcenter%2Fjs%2FhelpSelfServe.29bb770eb31f0964864.js.gzip
+- assets/web_resources/https%3A%2F%2Fs3-ap-southeast-1.amazonaws.com%2Fstatic.swiggy%2Fproduction_pwa_helpcenter%2Fjs%2Fhelpcenter.d5e63d1063e273e3b8e.js.gzip
+- assets/web_resources/https%3A%2F%2Fs3-ap-southeast-1.amazonaws.com%2Fstatic.swiggy%2Fproduction_pwa_helpcenter%2Fjs%2Fmanifest.8f7f80d2ea583f6ba63.js.gzip
+- assets/web_resources/https%3A%2F%2Fs3-ap-southeast-1.amazonaws.com%2Fstatic.swiggy%2Fproduction_pwa_helpcenter%2Fjs%2Fvendor.1d19b62ea06ffcf3542.js.gzip
+- assets/web_resources/https%3A%2F%2Fs3-ap-southeast-1.amazonaws.com%2Fstatic.swiggy%2Fproduction_pwa_helpcenter%2Flibs%2Fraven.js.gzip
+- res/drawable-hdpi-v4/icon_star_outline.webp
+- res/drawable-hdpi-v4/tooltip_arrow_down.webp
+- res/drawable-hdpi-v4/tooltip_arrow_up.webp
+- res/drawable-xhdpi-v4/arrow_up.webp
+- res/drawable-xhdpi-v4/down_triangle.webp
+- res/drawable-xhdpi-v4/error_exclamation.webp
+- res/drawable-xhdpi-v4/notification_close_black.webp
+- res/drawable-xhdpi-v4/notification_close_white.webp
+- res/drawable-xhdpi-v4/search_suggestion_icon.webp
+- res/drawable-xhdpi-v4/super_halfcard_lightning_icon.webp
+- res/drawable-xhdpi-v4/super_halfcard_moon_icon.webp
+- res/drawable-xhdpi-v4/super_halfcard_onboard_1.webp
+- res/drawable-xhdpi-v4/super_halfcard_savings_callout.webp
+- res/drawable-xhdpi-v4/up_triangle.webp
+- res/drawable-xxhdpi-v4/assured_pin.webp
+- res/drawable-xxhdpi-v4/blue_placeholder.webp
+- res/drawable-xxhdpi-v4/brown_placeholder.webp
+- res/drawable-xxhdpi-v4/cafe_illustration_background.webp
+- res/drawable-xxhdpi-v4/cafe_illustration_blue_guy.webp
+- res/drawable-xxhdpi-v4/cafe_illustration_green_girl.webp
+- res/drawable-xxhdpi-v4/cafe_illustration_yellow_girl.webp
+- res/drawable-xxhdpi-v4/cafe_lock.webp
+- res/drawable-xxhdpi-v4/cafe_logo.webp
+- res/drawable-xxhdpi-v4/cafe_onboarding_point_1.webp
+- res/drawable-xxhdpi-v4/cafe_onboarding_point_2.webp
+- res/drawable-xxhdpi-v4/cafe_onboarding_point_3.webp
+- res/drawable-xxhdpi-v4/cafe_self_pickup_icon.webp
+- res/drawable-xxhdpi-v4/cart_coupon_icon.webp
+- res/drawable-xxhdpi-v4/cart_super_icon.webp
+- res/drawable-xxhdpi-v4/chat_bubble.webp
+- res/drawable-xxhdpi-v4/coupon_code_background_left.webp
+- res/drawable-xxhdpi-v4/coupon_code_background_repeat.webp
+- res/drawable-xxhdpi-v4/coupon_code_background_right.webp
+- res/drawable-xxhdpi-v4/green_placeholder.webp
+- res/drawable-xxhdpi-v4/grey_placeholder.webp
+- res/drawable-xxhdpi-v4/group_active_icon_white.webp
+- res/drawable-xxhdpi-v4/ic_amazon_pay.webp
+- res/drawable-xxhdpi-v4/ic_clear_cart.webp
+- res/drawable-xxhdpi-v4/ic_payment_diners.webp
+- res/drawable-xxhdpi-v4/ic_payment_maestro.webp
+- res/drawable-xxhdpi-v4/ic_phonepe_icon_swiggy.webp
+- res/drawable-xxhdpi-v4/ic_sodexo.webp
+- res/drawable-xxhdpi-v4/in_app_update_icon.webp
+- res/drawable-xxhdpi-v4/longdistance_switch.webp
+- res/drawable-xxhdpi-v4/notification_icon.webp
+- res/drawable-xxhdpi-v4/nux_carousel_image_1.webp
+- res/drawable-xxhdpi-v4/nux_carousel_image_2.webp
+- res/drawable-xxhdpi-v4/nux_carousel_image_3.webp
+- res/drawable-xxhdpi-v4/poor_connection.webp
+- res/drawable-xxhdpi-v4/pop_rotatable_image_1.webp
+- res/drawable-xxhdpi-v4/pop_rotatable_image_2.webp
+- res/drawable-xxhdpi-v4/pop_rotatable_image_3.webp
+- res/drawable-xxhdpi-v4/red_placeholder.webp
+- res/drawable-xxhdpi-v4/scooter.webp
+- res/drawable-xxhdpi-v4/super_home.webp
+- res/drawable-xxhdpi-v4/super_other.webp
+- res/drawable-xxhdpi-v4/super_work.webp
+- res/drawable-xxhdpi-v4/swiggy_splash.webp
+- res/drawable-xxhdpi-v4/tick_white.webp
+- res/drawable-xxhdpi-v4/track_cafe_loader.webp
+- res/drawable-xxhdpi-v4/track_preorder_scheduled_icon.webp
+- res/drawable-xxhdpi-v4/track_split_image.webp
+- res/drawable-xxhdpi-v4/track_view_home_pin.webp
+- res/drawable-xxhdpi-v4/track_view_other_pin.webp
+- res/drawable-xxhdpi-v4/track_view_work_pin.webp
+- res/drawable-xxhdpi-v4/v2_ic_card.webp
+- res/drawable-xxhdpi-v4/v2_ic_cod.webp
+- res/drawable-xxhdpi-v4/v2_ic_freecharge.webp
+- res/drawable-xxhdpi-v4/v2_ic_mobikwik_payment_option.webp
+- res/drawable-xxhdpi-v4/v2_ic_netbanking.webp
+- res/drawable-xxhdpi-v4/v2_ic_paytm.webp
+- res/drawable-xxxhdpi-v4/assured_normal_card_even_bg.webp
+- res/drawable-xxxhdpi-v4/back_arrow_search.webp
+- res/drawable-xxxhdpi-v4/badge_new.webp
+- res/drawable-xxxhdpi-v4/batched_order_icon.webp
+- res/drawable-xxxhdpi-v4/bb_account.webp
+- res/drawable-xxxhdpi-v4/bb_account_selected.webp
+- res/drawable-xxxhdpi-v4/bb_cart.webp
+- res/drawable-xxxhdpi-v4/bb_cart_selected.webp
+- res/drawable-xxxhdpi-v4/bb_explore.webp
+- res/drawable-xxxhdpi-v4/bb_explore_selected.webp
+- res/drawable-xxxhdpi-v4/bb_near_me.webp
+- res/drawable-xxxhdpi-v4/bb_near_me_selected.webp
+- res/drawable-xxxhdpi-v4/bb_super_near_me.webp
+- res/drawable-xxxhdpi-v4/bb_super_near_me_selected.webp
+- res/drawable-xxxhdpi-v4/callicon.webp
+- res/drawable-xxxhdpi-v4/camera_bg.webp
+- res/drawable-xxxhdpi-v4/cart_empty.webp
+- res/drawable-xxxhdpi-v4/clock_checkout.webp
+- res/drawable-xxxhdpi-v4/close_button_bg.webp
+- res/drawable-xxxhdpi-v4/confirm_tick.webp
+- res/drawable-xxxhdpi-v4/control_play_icon.webp
+- res/drawable-xxxhdpi-v4/dash_generic_error_illustration.webp
+- res/drawable-xxxhdpi-v4/de_thumbnail_rts.webp
+- res/drawable-xxxhdpi-v4/dominos.webp
+- res/drawable-xxxhdpi-v4/error_black_zone.webp
+- res/drawable-xxxhdpi-v4/error_descriptive.webp
+- res/drawable-xxxhdpi-v4/error_generic.webp
+- res/drawable-xxxhdpi-v4/error_internal.webp
+- res/drawable-xxxhdpi-v4/error_new_location.webp
+- res/drawable-xxxhdpi-v4/favorites_empty_screen.webp
+- res/drawable-xxxhdpi-v4/forgot_password_illustration.webp
+- res/drawable-xxxhdpi-v4/gallery_bg.webp
+- res/drawable-xxxhdpi-v4/google_logo.webp
+- res/drawable-xxxhdpi-v4/google_powered_image.webp
+- res/drawable-xxxhdpi-v4/home_pin.webp
+- res/drawable-xxxhdpi-v4/ic_american_express_card.webp
+- res/drawable-xxxhdpi-v4/ic_arrow_back_black_24dp.webp
+- res/drawable-xxxhdpi-v4/ic_clear_black_24dp.webp
+- res/drawable-xxxhdpi-v4/ic_close_white_24dp.webp
+- res/drawable-xxxhdpi-v4/ic_emoji.webp
+- res/drawable-xxxhdpi-v4/ic_error_red_24dp.webp
+- res/drawable-xxxhdpi-v4/ic_keyboard_arrow_right_black_24dp.webp
+- res/drawable-xxxhdpi-v4/ic_lazypay_logo.webp
+- res/drawable-xxxhdpi-v4/ic_payment_amex.webp
+- res/drawable-xxxhdpi-v4/ic_payment_cod.webp
+- res/drawable-xxxhdpi-v4/ic_payment_mastercard.webp
+- res/drawable-xxxhdpi-v4/ic_payment_new_card.webp
+- res/drawable-xxxhdpi-v4/ic_payment_visa.webp
+- res/drawable-xxxhdpi-v4/ic_payment_white_36dp.webp
+- res/drawable-xxxhdpi-v4/ic_scooter_flat_delivery_fee.webp
+- res/drawable-xxxhdpi-v4/ic_transaction_failed.webp
+- res/drawable-xxxhdpi-v4/ic_visa_36dp.webp
+- res/drawable-xxxhdpi-v4/icon_favourite.webp
+- res/drawable-xxxhdpi-v4/icon_forward_orange.webp
+- res/drawable-xxxhdpi-v4/icon_refresh_black_36.webp
+- res/drawable-xxxhdpi-v4/illustration_addresses.webp
+- res/drawable-xxxhdpi-v4/illustration_general_api_error.webp
+- res/drawable-xxxhdpi-v4/location_arrow.webp
+- res/drawable-xxxhdpi-v4/logged_out_graphics.webp
+- res/drawable-xxxhdpi-v4/longdistance_illustrator_track.webp
+- res/drawable-xxxhdpi-v4/maintenance.webp
+- res/drawable-xxxhdpi-v4/multi_address_image.webp
+- res/drawable-xxxhdpi-v4/new_location_v2_image.webp
+- res/drawable-xxxhdpi-v4/not_servicable_image_v2.webp
+- res/drawable-xxxhdpi-v4/notification_cancelled.webp
+- res/drawable-xxxhdpi-v4/notification_cooked.webp
+- res/drawable-xxxhdpi-v4/notification_delivered.webp
+- res/drawable-xxxhdpi-v4/notification_picked.webp
+- res/drawable-xxxhdpi-v4/notification_placed.webp
+- res/drawable-xxxhdpi-v4/notification_swiggy.webp
+- res/drawable-xxxhdpi-v4/offer_icon.webp
+- res/drawable-xxxhdpi-v4/onboarding_group.webp
+- res/drawable-xxxhdpi-v4/other_pin.webp
+- res/drawable-xxxhdpi-v4/out_of_stock_image_v2.webp
+- res/drawable-xxxhdpi-v4/payment_error_rupee.webp
+- res/drawable-xxxhdpi-v4/payment_tick_selected.webp
+- res/drawable-xxxhdpi-v4/payment_tick_unselected.webp
+- res/drawable-xxxhdpi-v4/paytm_icon_sso.webp
+- res/drawable-xxxhdpi-v4/rate_app.webp
+- res/drawable-xxxhdpi-v4/restaurant_closed_image_v2.webp
+- res/drawable-xxxhdpi-v4/scooter_pin.webp
+- res/drawable-xxxhdpi-v4/share_tooltip_image.webp
+- res/drawable-xxxhdpi-v4/signup_icon.webp
+- res/drawable-xxxhdpi-v4/slot_unavailable.webp
+- res/drawable-xxxhdpi-v4/sold_out.webp
+- res/drawable-xxxhdpi-v4/store_pin.webp
+- res/drawable-xxxhdpi-v4/suggested_item_placeholder_1.webp
+- res/drawable-xxxhdpi-v4/suggested_item_placeholder_2.webp
+- res/drawable-xxxhdpi-v4/suggested_item_placeholder_3.webp
+- res/drawable-xxxhdpi-v4/swiggy_launcher_icon_christmas.webp
+- res/drawable-xxxhdpi-v4/swiggy_launcher_icon_new_year.webp
+- res/drawable-xxxhdpi-v4/third_party_delivery_background.webp
+- res/drawable-xxxhdpi-v4/third_party_delivery_guy.webp
+- res/drawable-xxxhdpi-v4/throttle.webp
+- res/drawable-xxxhdpi-v4/toggle_off_button.webp
+- res/drawable-xxxhdpi-v4/toggle_on_button.webp
+- res/drawable-xxxhdpi-v4/try_later.webp
+- res/drawable-xxxhdpi-v4/up_arrow_ld.webp
+- res/drawable-xxxhdpi-v4/v2_force_update.webp
+- res/drawable-xxxhdpi-v4/v2_ic_black_zone.webp
+- res/drawable-xxxhdpi-v4/v2_illustration_restaurant_closed.webp
+- res/drawable-xxxhdpi-v4/v2_location_error.webp
+- res/drawable-xxxhdpi-v4/v2_search_first_time_empty.webp
+- res/drawable-xxxhdpi-v4/video_fullscreen_icon.webp
+- res/drawable-xxxhdpi-v4/video_pause_icon.webp
+- res/drawable-xxxhdpi-v4/video_play_icon.webp
+- res/drawable-xxxhdpi-v4/video_sound_icon.webp
+- res/drawable-xxxhdpi-v4/video_sound_mute_icon.webp
+- res/drawable-xxxhdpi-v4/work_pin.webp
+- res/drawable-xxxhdpi-v4/yes_bank.webp
+- res/drawable-xxxhdpi-v4/zero_rating_delivery_head_image.webp
+- res/drawable-xxxhdpi-v4/zero_rating_head_image.webp
+- res/drawable/call_out_1.webp
+- res/drawable/call_out_2.webp
+- res/drawable/call_out_3.webp
+- res/drawable/delivery_boy_placeholder.webp
+- res/drawable/generic_alert_popup.webp
+- res/drawable/golden_bullet.webp
+- res/drawable/green_circle.webp
+- res/drawable/green_tick.webp
+- res/drawable/ic_close_map.webp
+- res/drawable/ic_delivery_ex_enroute_active.webp
+- res/drawable/ic_expand_map.webp
+- res/drawable/ic_more.webp
+- res/drawable/ic_revert.webp
+- res/drawable/ic_track_screen_delivered.webp
+- res/drawable/location_service_disabled_icon.webp
+- res/drawable/no_preferred_rupee_icon.webp
+- res/drawable/option_success.webp
+- res/drawable/orderconfirm_card_bg.webp
+- res/drawable/payment_new_card.webp
+- jpg
+- res/drawable/pudo_onboarding_1.webp
+- res/drawable/pudo_onboarding_2.webp
+- res/drawable/pudo_onboarding_3.webp
+- res/drawable/red_circle.webp
+- res/drawable/red_cross.webp
+- res/drawable/stores_onboarding_1.webp
+- res/drawable/stores_onboarding_2.webp
+- res/drawable/stores_onboarding_3.webp
+- res/drawable/stores_onboarding_4.webp
+- res/drawable/stores_slide_callout_1_1.webp
+- res/drawable/stores_slide_callout_1_2.webp
+- res/drawable/stores_slide_callout_2_1.webp
+- res/drawable/stores_slide_callout_2_2.webp
+- res/drawable/stores_slide_callout_3_1.webp
+- res/drawable/stores_slide_callout_3_2.webp
+- res/drawable/stores_slide_callout_4_1.webp
+- res/drawable/stores_slide_callout_4_2.webp
+- res/drawable/v2_dialog_area_closed.webp
+- res/drawable/v2_dialog_clear_cart.webp
+- res/drawable/v2_dialog_confirm_cod_header_image.webp
+- res/drawable/v2_dialog_payment_failure.webp
+- res/drawable/v2_dialog_zero_payment.webp
+- res/drawable/v2_ic_no_orders_image.webp
+- mp3
+- mp4
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '29'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  LICENSE_OFL: '8'
+  LICENSE_UNICODE: '8'
+  all_restaurants_dto.proto: '8'
+  androidsupportmultidexversion.txt: '0'
+  banner_carousel_dto.proto: '8'
+  base_card_dto.proto: '8'
+  base_card_view_config.proto: '8'
+  big_fyi_card.proto: '8'
+  brand_stories_dto.proto: '8'
+  communication_dto.proto: '8'
+  cta_dto.proto: '8'
+  dash_card_group_dto.proto: '8'
+  delivering_now_dto.proto: '8'
+  favourites_dto.proto: '8'
+  firebase-abt.properties: '8'
+  firebase-analytics.properties: '8'
+  firebase-appindexing.properties: '8'
+  firebase-common.properties: '8'
+  firebase-config.properties: '8'
+  firebase-core.properties: '8'
+  firebase-iid-interop.properties: '8'
+  firebase-iid.properties: '8'
+  firebase-measurement-connector.properties: '8'
+  firebase-messaging.properties: '8'
+  grid_widget.proto: '8'
+  inline_rating_card_dto.proto: '8'
+  int32.proto: '8'
+  launch_card_group_dto.proto: '8'
+  offer_info.proto: '8'
+  play-services-ads-identifier.properties: '8'
+  play-services-analytics-impl.properties: '8'
+  play-services-analytics.properties: '8'
+  play-services-auth-api-phone.properties: '8'
+  play-services-auth-base.properties: '8'
+  play-services-auth.properties: '8'
+  play-services-base.properties: '8'
+  play-services-basement.properties: '8'
+  play-services-clearcut.properties: '8'
+  play-services-identity.properties: '8'
+  play-services-location.properties: '8'
+  play-services-maps.properties: '8'
+  play-services-measurement-api.properties: '8'
+  play-services-measurement-base.properties: '8'
+  play-services-measurement-impl.properties: '8'
+  play-services-measurement-sdk-api.properties: '8'
+  play-services-measurement-sdk.properties: '8'
+  play-services-measurement.properties: '8'
+  play-services-phenotype.properties: '8'
+  play-services-places-placereport.properties: '8'
+  play-services-stats.properties: '8'
+  play-services-tagmanager-api.properties: '8'
+  play-services-tagmanager-v4-impl.properties: '8'
+  play-services-tagmanager.properties: '8'
+  play-services-tasks.properties: '8'
+  play-services-wearable.properties: '8'
+  pop_card_dto.proto: '8'
+  popular_brands_dto.proto: '8'
+  pre_order_card_dto.proto: '8'
+  response_dto.proto: '8'
+  restaurant_home_dto.proto: '8'
+  restaurants_grid_dto.proto: '8'
+  ribbon_dto.proto: '8'
+  signer.crt: '8'
+  small_fyi_card.proto: '8'
+  title_subtitle_image.proto: '8'
+  view_config.proto: '8'
+  com/appsflyer/internal/a.: '0'
+  com/appsflyer/internal/b.: '0'
+  fabric/com.crashlytics.sdk.android.answers.properties: '8'
+  fabric/com.crashlytics.sdk.android.beta.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics-core.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics.properties: '8'
+  fabric/com.twitter.sdk.android.tweet-composer.properties: '8'
+  fabric/io.fabric.sdk.android.fabric.properties: '8'
+  google/protobuf/any.proto: '8'
+  google/protobuf/api.proto: '8'
+  google/protobuf/descriptor.proto: '8'
+  google/protobuf/duration.proto: '8'
+  google/protobuf/empty.proto: '8'
+  google/protobuf/field_mask.proto: '8'
+  google/protobuf/source_context.proto: '8'
+  google/protobuf/struct.proto: '8'
+  google/protobuf/timestamp.proto: '8'
+  google/protobuf/type.proto: '8'
+  google/protobuf/wrappers.proto: '8'
+  google/protobuf/compiler/plugin.proto: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '0'
+  org/apache/xml/security/resource/config.dtd: '8'
+  org/apache/xml/security/resource/config.xml: '8'
+  org/apache/xml/security/resource/log4j.properties: '8'
+  org/apache/xml/security/resource/xmlsecurity_de.properties: '8'
+  org/apache/xml/security/resource/xmlsecurity_en.properties: '8'
+  org/apache/xml/security/resource/schema/etsi.xsd: '8'
+  org/apache/xml/security/resource/schema/xenc-schema.rng: '8'
+  org/apache/xml/security/resource/schema/xenc-schema.xsd: '8'
+  org/apache/xml/security/resource/schema/xmldsig-core-schema.dtd: '8'
+  org/apache/xml/security/resource/schema/xmldsig-core-schema.rng: '8'
+  org/apache/xml/security/resource/schema/xmldsig-core-schema.xsd: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '789'
+  versionName: 3.17.0

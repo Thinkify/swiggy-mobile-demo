@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<in.swiggy.android.view.SwiggyTextView android:gravity="center_vertical" android:tag="layout/explore_intermediate_section_header_layout_0" android:background="@color/activity_grey_background" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_48dp" android:layout_marginTop="@dimen/dimen_neg_38dp" android:layout_marginBottom="@dimen/dimen_16dp" android:singleLine="true" android:paddingStart="@dimen/dimen_16dp" android:paddingEnd="@dimen/dimen_16dp" android:letterSpacing="0.1" style="@style/TextMedium12spBlackGrape100Caps"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

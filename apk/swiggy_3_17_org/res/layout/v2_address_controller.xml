@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/v2_address_controller_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <in.swiggy.android.view.SwiggyToolbar android:id="@id/address_controller__toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:showDivider="true" />
+        <in.swiggy.android.view.ShimmerFrameLayout android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tilt="0">
+            <in.swiggy.android.view.SwiggyRecyclerView android:tag="binding_2" android:background="@color/blackGrape0" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" app:listenContentLoadingUpdates="true" />
+        </in.swiggy.android.view.ShimmerFrameLayout>
+        <FrameLayout android:tag="binding_3" android:background="@color/white100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/v2_item_illustration_details" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/add_new_address_button_layout" />
+    </FrameLayout>
+</FrameLayout>

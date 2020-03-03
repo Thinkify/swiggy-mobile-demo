@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="preorder_dialog_header_padding_bottom">@dimen/dimen_20dp</item>
+    <item type="dimen" name="track_disabled_container_margin_bottom">@dimen/dimen_48dp</item>
+    <item type="dimen" name="track_disabled_header_subheader_gap">@dimen/dimen_32dp</item>
+</resources>

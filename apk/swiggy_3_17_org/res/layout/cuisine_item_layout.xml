@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/cuisine_item_height" style="@style/darkPressedStateDrawable"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <in.swiggy.android.view.SwiggyTextView android:textSize="15.0sp" android:textColor="@color/seventy_percent_black" android:gravity="center_vertical" android:id="@id/cuisine_name" android:layout_width="wrap_content" android:layout_height="fill_parent" app:fontName="avenir_medium" />
+    <in.swiggy.android.view.SwiggyCheckBox android:id="@id/cuisine_checkbox" android:padding="0.0dip" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:drawablePadding="0.0dip" android:layout_alignParentRight="true" android:alpha="0.7" android:layout_marginStart="12.0dip" android:layout_alignParentEnd="true" style="@style/CheckBoxStyle" />
+    <View android:background="@color/ten_percent_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.30000007dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>
