@@ -1,7 +1,7 @@
 package com.thinkify.android.tests;
 
-import com.thinkify.android.listener.TestListener;
 import com.thinkify.android.base.AppiumAndroidTest;
+import com.thinkify.android.listener.TestListener;
 import com.thinkify.android.page.HomePage;
 import io.appium.java_client.MobileElement;
 import io.qameta.allure.Description;
@@ -15,6 +15,7 @@ public class SwiggyHomeTest extends AppiumAndroidTest {
     @Test(description = "verifies name of saved current location")
     @Description("Checks whether current location is shown as 'Swiggy' when it is saved in addresses")
     public void checkHomeLabel() {
+        home = new HomePage();
         MobileElement headingLabel = driver.findElementById(HomePage.locationId);
         String labelText = headingLabel.getText();
         Assert.assertEquals(labelText, "swiggy");

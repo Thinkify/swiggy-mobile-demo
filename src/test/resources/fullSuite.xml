@@ -1,11 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Full Suite" parallel="false" preserve-order="true">
-    <test name="Home Test">
+    <test name="Check current location test">
         <classes>
             <class name="com.thinkify.android.tests.SwiggyHomeTest"/>
         </classes>
     </test>
-    <test name="Add an item to cart test">
+    <test name="Add an item to cart and proceed to checkout test">
         <classes>
             <class name="com.thinkify.android.tests.SwiggyAddItemToCartTest"/>
         </classes>

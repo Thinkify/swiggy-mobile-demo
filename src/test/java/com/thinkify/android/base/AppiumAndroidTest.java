@@ -19,17 +19,18 @@ public class AppiumAndroidTest {
     public WebDriverWait wait;
     public static final int timeout = 30;
 
-    protected HomePage home;
-    protected RestaurantPage restaurant;
+    public HomePage home;
+    public RestaurantPage restaurant;
 
     @BeforeSuite
     public void setUp() throws Exception {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        String appPath = "/Users/praveen.souda/workspace/thinkify/thinkify_swiggy_demo/apk/swiggy_3_17_2.apk";
+        String appPath = "/Users/praveen.souda/workspace/thinkify/swiggy/swiggy_mobile_demo/apk/swiggy_x86_64.apk";
+
 
         capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("platformVersion", "10.0");
+        capabilities.setCapability("platformVersion", "9.0");
         capabilities.setCapability("deviceName", "emulator-5554");
         capabilities.setCapability("appPackage", "in.swiggy.android");
         capabilities.setCapability("appActivity", "in.swiggy.android.activities.HomeActivity");

@@ -17,7 +17,7 @@ public class SwiggyAddItemToCartTest extends AppiumAndroidTest {
 
 
     @Test(description = "Search for a restaurant, add a dish to cart and proceed to checkout")
-    public void addItemToCart() throws InterruptedException {
+    public void addItemToCart() {
         restaurant = new RestaurantPage();
         MobileElement bottomExploreElement = driver.findElementById(RestaurantPage.searchTabId);
         bottomExploreElement.click();
